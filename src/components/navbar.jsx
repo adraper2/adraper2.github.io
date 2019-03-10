@@ -38,11 +38,7 @@ class NavBar extends Component {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <div
-          className="collapse navbar-collapse"
-          id="navbarToggler"
-          style={{ zIndex: 5 }}
-        >
+        <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0 ">
             <li className="nav-item d-flex justify-content-end">
               <a className="nav-link" href="#">
@@ -62,7 +58,7 @@ class NavBar extends Component {
             <li className="nav-item d-flex justify-content-end">
               <a
                 className="nav-link"
-                href="https://drive.google.com/file/d/1W1rnrqYP_LwllfPb8mCXOhWutR_r1zmc/view?usp=sharing"
+                href="https://drive.google.com/file/d/1IQ16fE8xMedcYRaPZknN0keYl16-v7yM/view?usp=sharing"
               >
                 CV
               </a>
