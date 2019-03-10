@@ -38,7 +38,11 @@ class NavBar extends Component {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarToggler">
+        <div
+          className="collapse navbar-collapse"
+          id="navbarToggler"
+          style={{ zIndex: 5 }}
+        >
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0 ">
             <li className="nav-item d-flex justify-content-end">
               <a className="nav-link" href="#">

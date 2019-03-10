@@ -25,8 +25,8 @@ html {
   overflow-y: scroll;
 }
 .container {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: 64px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -35,6 +35,6 @@ html {
 }
 
 .top-container {
-  padding-top: 100px;
-  height: 100%;
+  margin-top: 40px;
+  height: 200vh;
 }
