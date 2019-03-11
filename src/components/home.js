@@ -14,6 +14,10 @@ class Home extends Component {
             applications in Computer Vision and Ecology.{" "}
           </p>
           <p>
+            I urge you to comeback soon. I built this site on March 10, 2018.
+            There is still more work to come.{" "}
+          </p>
+          <p>
             <b>
               Checkout{" "}
               <a href="https://drive.google.com/file/d/1IGt0naMDSIeAdVNg4FpDtcW5Uj9f1M4h/view?usp=sharing">

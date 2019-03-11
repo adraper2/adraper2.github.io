@@ -103,6 +103,8 @@ html {
 .project-image {
   float: left;
   width: 30%;
+  max-height: 30vh;
+  margin: auto;
 }
 
 .project-box {
@@ -111,6 +113,7 @@ html {
   width: 100%;
   min-height: 10vh;
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .project-subbox {

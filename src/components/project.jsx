@@ -11,14 +11,17 @@ class Project extends Component {
     return (
       <div className="project-box">
         <img
-          src={require(`../${projectImage}`)}
+          src={require(`../images/${projectImage}`)}
           className="project-image"
           alt="project"
         />
         <div className="project-subbox">
           <h4>{projectTitle}</h4>
           <p>{projectDesc}</p>
-          <a href={projectLink}>Link to project.</a>
+          <a href="/" style={{ paddingRight: 5 }}>
+            [project]
+          </a>
+          <a href={projectLink}>[GitHub]</a>
         </div>
       </div>
     );
