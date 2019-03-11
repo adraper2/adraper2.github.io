@@ -10,10 +10,16 @@ class Project extends Component {
     } = this.props.project;
     return (
       <div className="project-box">
-        <img src={projectImage} className="project-image" alt="project" />
-        <h4>{projectTitle}</h4>
-        <p>{projectDesc}</p>
-        <a href={projectLink}>Link to project.</a>
+        <img
+          src={require(`../${projectImage}`)}
+          className="project-image"
+          alt="project"
+        />
+        <div className="project-subbox">
+          <h4>{projectTitle}</h4>
+          <p>{projectDesc}</p>
+          <a href={projectLink}>Link to project.</a>
+        </div>
       </div>
     );
   }

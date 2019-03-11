@@ -59,6 +59,13 @@ html {
   top: 106px;
 }
 
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
 .top-container {
   margin-top: 40px;
   height: 90%;
@@ -91,4 +98,29 @@ html {
   height: 22px;
   width: 22px;
   border-radius: 50%;
+}
+
+.project-image {
+  float: left;
+  width: 30%;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 10vh;
+  overflow: hidden;
+}
+
+.project-subbox {
+  float: left;
+  width: 70%;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 990px) {
+  .project-image {
+    width: 207px;
+  }
 }

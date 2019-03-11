@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import Project from "./project";
-import reactLogo from "../logo.svg";
 
 class Projects extends Component {
   state = {
     projects: [
       {
         id: 1,
-        projectImage: { reactLogo },
+        projectImage: "logo.svg",
         projectTitle: "Test Project 1",
         projectDesc:
           "This is a test description of what a project might look like on this page using components.",
@@ -15,7 +14,7 @@ class Projects extends Component {
       },
       {
         id: 2,
-        projectImage: { reactLogo },
+        projectImage: "logo.svg",
         projectTitle: "Test Project 2",
         projectDesc:
           "This is a test description of what a project might look like on this page using components.",
@@ -23,7 +22,7 @@ class Projects extends Component {
       },
       {
         id: 3,
-        projectImage: { reactLogo },
+        projectImage: "logo.svg",
         projectTitle: "Test Project 3",
         projectDesc:
           "This is a test description of what a project might look like on this page using components.",
@@ -31,7 +30,7 @@ class Projects extends Component {
       },
       {
         id: 4,
-        projectImage: { reactLogo },
+        projectImage: "logo.svg",
         projectTitle: "Test Project 4",
         projectDesc:
           "This is a test description of what a project might look like on this page using components.",
@@ -39,7 +38,7 @@ class Projects extends Component {
       },
       {
         id: 5,
-        projectImage: { reactLogo },
+        projectImage: "logo.svg",
         projectTitle: "Test Project 5",
         projectDesc:
           "This is a test description of what a project might look like on this page using components.",
