@@ -27,6 +27,15 @@ class Home extends Component {
               Mathematics and Statistics!{" "}
             </b>
           </p>
+          <br />
+          <br />
+          <br />
+          <p style={{ textAlign: "center" }}>My Github Commit Chart:</p>
+          <img
+            className="github_chart"
+            src="http://ghchart.rshah.org/adraper2"
+            alt="github chart"
+          />
         </div>
       </main>
     );

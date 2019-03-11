@@ -117,6 +117,7 @@ html {
 }
 
 .project-subbox {
+  padding-top: 10px;
   float: left;
   width: 70%;
 }
@@ -126,4 +127,27 @@ html {
   .project-image {
     width: 207px;
   }
+}
+
+.project-tag-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-tag {
+  float: left;
+  display: flex;
+}
+
+.github_tag {
+  filter: gray;
+  height: 20px;
+  width: 20px;
+}
+
+.github_chart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
