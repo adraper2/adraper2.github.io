@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, NavLink } from "react-router-dom";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
@@ -23,9 +24,9 @@ class NavBar extends Component {
         className={this.getNavClasses()}
         style={{ backgroundColor: myColors.White, position: "fixed", top: 0 }}
       >
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           Aidan James Draper
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -41,19 +42,19 @@ class NavBar extends Component {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0 ">
             <li className="nav-item d-flex justify-content-end">
-              <a className="nav-link" href="#">
+              <NavLink exact to="/portfolio" className="nav-link">
                 Portfolio
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
-              <a className="nav-link" href="#">
+              <NavLink exact to="/projects" className="nav-link">
                 Projects
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
-              <a className="nav-link" href="#">
+              <NavLink exact to="/publications" className="nav-link">
                 Publications
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
               <a

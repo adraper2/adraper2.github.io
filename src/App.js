@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
+import Home from "./components/home";
 import Footer from "./components/footer";
+import Projects from "./components/projects";
+import Portfolio from "./components/portfolio";
+import Publications from "./components/publications";
 import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
 
 class App extends Component {
   state = {
@@ -23,33 +28,19 @@ class App extends Component {
 
   render() {
     return (
-      <React.Fragment>
-        <NavBar onTop={this.state.isTop} />
+      <BrowserRouter>
+        <React.Fragment>
+          <NavBar onTop={this.state.isTop} />
 
-        <main className="container">
-          <div className="top-container">
-            <p>
-              Hi, my name is Aidan! I am a senior studying Computer Science and
-              Statistics at Elon University in North Carolina. I plan on
-              graduating this May and pursuing a Ph.D. afterwards. My research
-              interests are in Machine Learning, Bayesian Statistics, and
-              general Classification Algorithms. I am particularly interested in
-              their applications in Computer Vision and Ecology.{" "}
-            </p>
-            <p>
-              <b>
-                Checkout{" "}
-                <a href="https://drive.google.com/file/d/1IGt0naMDSIeAdVNg4FpDtcW5Uj9f1M4h/view?usp=sharing">
-                  the preprint
-                </a>{" "}
-                of the article that I just submitted to the NC Journal of
-                Mathematics and Statistics!{" "}
-              </b>
-            </p>
-          </div>
-        </main>
-        <Footer />
-      </React.Fragment>
+          <main className="container">
+            <Route exact path="/" component={Home} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/publications" component={Publications} />
+            <Footer />
+          </main>
+        </React.Fragment>
+      </BrowserRouter>
     );
   }
 }
