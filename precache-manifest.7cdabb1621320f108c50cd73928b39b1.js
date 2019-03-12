@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/repo-forked.c6aaf6ba.svg"
   },
   {
-    "revision": "c392b1638df7c6f6f0d0",
+    "revision": "8eee10f75b84e1910386",
     "url": "/static/css/main.9bbbed14.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/zoom_noise.e0ee8eef.png"
   },
   {
-    "revision": "b07a16da07891f644c2a",
-    "url": "/static/js/2.6cda53fd.chunk.js"
+    "revision": "485d5dfbb10bdc0cad38",
+    "url": "/static/js/2.b2d2e0da.chunk.js"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/history.5922c6df.svg"
   },
   {
-    "revision": "c392b1638df7c6f6f0d0",
-    "url": "/static/js/main.dc227511.chunk.js"
+    "revision": "8eee10f75b84e1910386",
+    "url": "/static/js/main.55f9e808.chunk.js"
   },
   {
     "revision": "41e657072f976b415b8f8402cce966a2",
@@ -60,11 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/spotify_mood.5d23c5c6.jpg"
   },
   {
-    "revision": "b07a16da07891f644c2a",
+    "revision": "485d5dfbb10bdc0cad38",
     "url": "/static/css/2.90860d4a.chunk.css"
   },
   {
-    "revision": "30056e77b94e3278a18170cb1b1f74d2",
+    "revision": "7ea36ef6118267e145dcaddaaa711df0",
     "url": "/index.html"
   }
 ];
