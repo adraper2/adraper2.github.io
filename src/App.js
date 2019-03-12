@@ -40,21 +40,19 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <React.Fragment>
-          <NavBar onTop={this.state.isTop} />
-          <main className="container">
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/portfolio" component={Portfolio} />
-              <Route path="/projects" component={Projects} />
-              <Route path="/publications" component={Publications} />
-              <Route component={NoMatch} />
-            </Switch>
-            <Footer />
-          </main>
-        </React.Fragment>
-      </BrowserRouter>
+      <React.Fragment>
+        <NavBar onTop={this.state.isTop} />
+        <main className="container">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/publications" component={Publications} />
+            <Route component={NoMatch} />
+          </Switch>
+          <Footer />
+        </main>
+      </React.Fragment>
     );
   }
 }
