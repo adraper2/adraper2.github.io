@@ -39,7 +39,7 @@ class Footer extends Component {
           </a>
         </div>
         <div align="center" className="footer-element">
-          Copyright &copy; 2019 - Aidan James Draper - All rights reserved.
+          Copyright &copy; 2019 | Aidan James Draper
         </div>
         <div align="center" className="footer-element">
           <img
