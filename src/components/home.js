@@ -30,7 +30,7 @@ class Home extends Component {
           <br />
           <br />
           <br />
-          <p style={{ textAlign: "center" }}>My Github Commit Chart:</p>
+          <p style={{ textAlign: "center" }}>GitHub Commits</p>
           <img
             className="github_chart"
             src="http://ghchart.rshah.org/adraper2"

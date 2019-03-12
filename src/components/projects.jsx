@@ -43,6 +43,22 @@ class Projects extends Component {
         projectDesc:
           "In this project, I analyze the sentiment and lyrics in my own Spotify Saved Music library. I implement Gensim's LDA Topic Modeling, NLTK's Vader Sentiment Analyzer, and a multiple linear regression on data that I pull from the Spotify and Genius APIs. The project served as my final for CSC 401 - Data Mining and Machine Learning.",
         projectLink: "CSC401-Final-Project"
+      },
+      {
+        id: 6,
+        projectImage: "kendrick.jpeg",
+        projectTitle: "Spotitry: A Personalized Music Playlist Generator",
+        projectDesc:
+          "During December of 2017, Marcus Zimmermann and Aidan Draper decided to spend their spare time developing an algorithm to fetch new music for users based on their 'short term' listening habits. Using a variety of variables, including a popularity rating < 50, the top 3 genres, similar artists, and grouping based on audio features, they developed two playlists unique to their accounts below. This is still a work in progress and currently the python script only grabs the top search result for each query run. The entire repository can be found here.",
+        projectLink: "spotitry"
+      },
+      {
+        id: 7,
+        projectImage: "clt.png",
+        projectTitle: "Central Limit Theorem Shiny Applciation",
+        projectDesc:
+          "This was the final project for our STS 347, Statistical Modeling in R, class. For the project, we created a Shiny App within R to show to statistical and non-statistical audiences how the Central Limit Theorem works. This app was created by Aidan Draper, Christian Wagner, Chris Laskay, and Graham Parker.",
+        projectLink: "sts347-final"
       }
     ]
   };

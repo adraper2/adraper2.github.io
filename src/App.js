@@ -6,7 +6,7 @@ import Projects from "./components/projects";
 import Portfolio from "./components/portfolio";
 import Publications from "./components/publications";
 import "./App.css";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   state = {
@@ -31,12 +31,13 @@ class App extends Component {
       <BrowserRouter>
         <React.Fragment>
           <NavBar onTop={this.state.isTop} />
-
           <main className="container">
-            <Route exact path="/" component={Home} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/publications" component={Publications} />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/portfolio" component={Portfolio} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/publications" component={Publications} />
+            </Switch>
             <Footer />
           </main>
         </React.Fragment>
