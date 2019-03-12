@@ -8,6 +8,18 @@ import Publications from "./components/publications";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+const NoMatch = ({ location }) => (
+  <div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h3 style={{ textAlign: "center" }}>
+      Sorry! No page was found under the path: <code>{location.pathname}</code>
+    </h3>
+  </div>
+);
+
 class App extends Component {
   state = {
     isTop: true
@@ -37,6 +49,7 @@ class App extends Component {
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/projects" component={Projects} />
               <Route path="/publications" component={Publications} />
+              <Route component={NoMatch} />
             </Switch>
             <Footer />
           </main>
