@@ -123,10 +123,62 @@ html {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 992px) {
   .project-image {
-    width: 207px;
+    height: 200px;
+    width: auto;
   }
+}
+
+/* Smaller screen layout ----------- */
+@media only screen and (max-width: 992px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .footer-element {
+    width: 100%;
+  }
+
+  .container {
+    padding-bottom: 0px;
+  }
+
+  .github_chart {
+    width: 100%;
+  }
+
+  .project-image {
+    width: auto;
+  }
+}
+
+/* When navbar collapses, do this! ----------- */
+@media only screen and (max-width: 990px) {
+  .main-container {
+    top: 0px;
+  }
+  .project-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-subbox {
+    width: 100%;
+  }
+
+  .project-tag-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .github_box {
+    width: 100%;
+  }
+}
+
+/* When navbar collapses, do this! ----------- */
+@media only screen and (max-width: 766px) {
 }
 
 .project-tag-container {

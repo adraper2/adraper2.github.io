@@ -9,7 +9,7 @@ class Projects extends Component {
         projectImage: "reactLogo.png",
         projectTitle: "ReactJS Portfolio Site",
         projectDesc:
-          "This site is my current project. I am building a portfolio Single Page Application using the ReactDom and the GitHab Pages host. Prior to this experience, I had very little JavaScript exposure and no ReactJS background. It has been a great learning experience into how the React server system helps optimize runtime of Front End UIs. Hope you enjoy the site!",
+          "This is my current project. I am building a Single Page Application portfolio site using the React JS library, all of which is hosted on Github Pages. I also use the GitHub API to pull current repository information. Prior to this experience, I had very little JavaScript exposure and no ReactJS background. It has been a great experience learning how the React Server DOM helps optimize runtime of Front End UIs. Hope you enjoy the site!",
         projectLink: "adraper2.github.io"
       },
       {

@@ -59,7 +59,7 @@ class Project extends Component {
       <div className="project-box">
         <img
           src={require(`../images/${projectImage}`)}
-          className="project-image"
+          className="project-image rounded border"
           alt="project"
         />
         <div className="project-subbox">
