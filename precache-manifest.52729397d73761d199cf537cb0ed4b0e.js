@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/repo-forked.c6aaf6ba.svg"
   },
   {
-    "revision": "83db87a6ea218d32fec7",
-    "url": "/static/css/main.e542af28.chunk.css"
+    "revision": "453d261fcc0fa2044307",
+    "url": "/static/css/main.56b9e379.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/zoom_noise.e0ee8eef.png"
   },
   {
-    "revision": "485d5dfbb10bdc0cad38",
-    "url": "/static/js/2.b2d2e0da.chunk.js"
+    "revision": "f20994debc154f3419b3",
+    "url": "/static/js/2.12a84421.chunk.js"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/history.5922c6df.svg"
   },
   {
-    "revision": "83db87a6ea218d32fec7",
-    "url": "/static/js/main.03824b2f.chunk.js"
+    "revision": "453d261fcc0fa2044307",
+    "url": "/static/js/main.558e364c.chunk.js"
   },
   {
     "revision": "41e657072f976b415b8f8402cce966a2",
@@ -60,11 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/spotify_mood.5d23c5c6.jpg"
   },
   {
-    "revision": "485d5dfbb10bdc0cad38",
+    "revision": "f20994debc154f3419b3",
     "url": "/static/css/2.90860d4a.chunk.css"
   },
   {
-    "revision": "3c8de468a12f684236e53bac9975d95a",
+    "revision": "12a3b93ed6e16c62932fc86dd90f7e09",
     "url": "/index.html"
   }
 ];
