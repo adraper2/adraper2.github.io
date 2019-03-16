@@ -1,3 +1,12 @@
+/* React SPA Portfolio site - Copyright (C) 2019 Aidan James Draper
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later
+version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program.  If not, see
+<http://www.gnu.org/licenses/>.*/
+
 * {
   box-sizing: border-box;
 }
@@ -48,15 +57,49 @@ html {
   position: relative;
   overflow: hidden;
   display: block;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   top: 64px;
   min-height: 90vh;
-  padding-bottom: 60px;
 }
 
 .main-container {
   position: relative;
-  top: 106px;
+}
+
+#portfolio-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar-nav {
+  position: fixed;
+  margin-left: 65%;
+  margin-right: 200;
+}
+
+.sidebar-nav li {
+  list-style: none;
+}
+
+.is-current a {
+  background: #57648c;
+  color: white;
+}
+
+.sidebar-nav a:hover {
+  color: white;
+  background: #c2b4d6;
+}
+
+.portfolio-info-container {
+  width: 70%;
+}
+
+.date {
+  float: right;
+  text-align: right;
+  font-style: italic;
 }
 
 .projects-container {
@@ -103,8 +146,9 @@ html {
 .project-image {
   float: left;
   width: 30%;
-  max-height: 30vh;
+  max-height: auto;
   margin: auto;
+  max-width: 240px;
 }
 
 .project-box {
@@ -123,7 +167,7 @@ html {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 899px) {
   .project-image {
     height: 200px;
     width: auto;
@@ -131,7 +175,7 @@ html {
 }
 
 /* Smaller screen layout ----------- */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -139,10 +183,6 @@ html {
   }
   .footer-element {
     width: 100%;
-  }
-
-  .container {
-    padding-bottom: 0px;
   }
 
   .github_chart {

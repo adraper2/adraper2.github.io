@@ -3,6 +3,7 @@ import Star from "../content/star.svg";
 import Commit from "../content/history.svg";
 import Fork from "../content/repo-forked.svg";
 import axios from "axios";
+import ProjectPage from "./project-page";
 
 class Project extends Component {
   state = {
@@ -66,7 +67,11 @@ class Project extends Component {
           <h4>{projectTitle}</h4>
           <p>{projectDesc}</p>
           <div className="project-tag-container">
-            <a className="project_tag" href="/" style={{ paddingRight: 5 }}>
+            <a
+              className="project_tag"
+              href={"/" + projectLink}
+              style={{ paddingRight: 5 }}
+            >
               [project]
             </a>
             <a

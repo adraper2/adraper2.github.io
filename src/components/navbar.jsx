@@ -14,8 +14,6 @@ class NavBar extends Component {
 
   constructor(props) {
     super(props);
-
-    console.log(this.props);
   }
 
   render() {
@@ -72,7 +70,6 @@ class NavBar extends Component {
 
   getNavClasses() {
     let classes = "mynav navbar navbar-expand-md ";
-    console.log(this.props);
     classes +=
       this.props.onTop === true ? "navbar-light" : "navbar-dark bg-dark";
     return classes;
