@@ -66,6 +66,7 @@ html {
   position: relative;
 }
 
+/* Portfolio CSS ----------- */
 #portfolio-container {
   position: relative;
   display: flex;
@@ -101,6 +102,8 @@ html {
   text-align: right;
   font-style: italic;
 }
+
+/* End Portfolio CSS  */
 
 .projects-container {
   display: flex;
@@ -143,6 +146,7 @@ html {
   border-radius: 50%;
 }
 
+/* Project Page ----------- */
 .project-image {
   float: left;
   width: 30%;
@@ -242,4 +246,15 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+}
+
+/* Project page CSS ----------- */
+.project-page-title {
+  text-align: center;
+}
+
+.project-page-image {
+  display: block;
+  margin: auto;
+  width: 400px;
 }

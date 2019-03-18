@@ -10,15 +10,36 @@ class ProjectPage extends Component {
   }
 
   render() {
-    const { projectImage, projectTitle, projectDesc } = this.props.project;
+    const {
+      projectImage,
+      projectTitle,
+      projectDesc,
+      contentOne,
+      contentTwo,
+      contentThree,
+      contentFour
+    } = this.props.project;
+
     return (
       <div>
-        <h3>{projectTitle}</h3>
         <img
           src={require(`../images/${projectImage}`)}
-          className="project-image rounded border"
+          className=" rounded border project-page-image"
         />
-        <p>Need to add custom content and formatting still!</p>
+        <br />
+        <h3 className="project-page-title">{projectTitle}</h3>
+        <br />
+        <p>
+          <b>Brief overview:</b> <i>{projectDesc}</i>
+        </p>
+        <h4>In-depth Overview</h4>
+        {contentOne}
+        <br />
+        {contentTwo}
+        <br />
+        {contentThree}
+        <br />
+        {contentFour}
       </div>
     );
   }
