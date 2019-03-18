@@ -36,7 +36,8 @@ class Project extends Component {
       projectImage,
       projectTitle,
       projectDesc,
-      projectLink
+      projectLink,
+      pageLink
     } = this.props.project;
 
     const { projectInfo, projectCommits } = this.state;
@@ -69,7 +70,7 @@ class Project extends Component {
           <div className="project-tag-container">
             <a
               className="project_tag"
-              href={"/" + projectLink}
+              href={"/" + pageLink}
               style={{ paddingRight: 5 }}
             >
               [project]
