@@ -34,9 +34,7 @@ class App extends Component {
           "This is my current project. I am building a Single Page Application portfolio site using the React JS library, all of which is hosted on Github Pages. I also use the GitHub API to pull current repository information. Prior to this experience, I had very little JavaScript exposure and no ReactJS background. It has been a great experience learning how the React Server DOM helps optimize runtime of Front End UIs. Hope you enjoy the site!",
         projectLink: "adraper2.github.io",
         pageLink: "react_site",
-        paragraphOne: "",
         contentOne: "",
-        paragraphTwo: "",
         contentTwo: ""
       },
       {
@@ -44,12 +42,20 @@ class App extends Component {
         projectImage: "zoom_noise.png",
         projectTitle: "Visual Perceptions of Image Denoising",
         projectDesc:
-          "ABSTRACT: Statisticians, as well as machine learning and computer vision experts, have been studying image reconstitution through denoising different domains of photography, such as textual documentation, tomographic, astronomical, and low-light photography. In this paper, we apply common inferential kernel filters in the R and python languages, as well as Adobe Lightroom's denoise filter, and compare their effectiveness in removing noise from JPEG images. We ran standard benchmark tests to evaluate each method's effectiveness for removing noise. In doing so, we also surveyed students at Elon University about their opinion of a single filtered photo from a collection of photos processed by the various filter methods. Many scientists believe that noise filters cause blurring and image quality loss so we analyzed whether or not people felt as though denoising causes any quality loss as compared to their noiseless images. Individuals assigned scores indicating the image quality of a denoised photo compared to its noiseless counterpart on a 1 to 10 scale. Survey scores are compared across filters to evaluate whether there were significant differences in image quality scores received. Benchmark scores were compared to the visual perception scores. Then, an analysis of covariance test was run to identify whether or not survey training scores explained any unplanned variation in visual scores assigned by students across the filter methods.",
+          "Statisticians, as well as machine learning and computer vision experts, have been studying image reconstitution through denoising different domains of photography, such as textual documentation, tomographic, astronomical, and low-light photography. In this paper, we apply common inferential kernel filters in the R and python languages, as well as Adobe Lightroom's denoise filter, and compare their effectiveness in removing noise from JPEG images. We ran standard benchmark tests to evaluate each method's effectiveness for removing noise. In doing so, we also surveyed students at Elon University about their opinion of a single filtered photo from a collection of photos processed by the various filter methods. Many scientists believe that noise filters cause blurring and image quality loss so we analyzed whether or not people felt as though denoising causes any quality loss as compared to their noiseless images. Individuals assigned scores indicating the image quality of a denoised photo compared to its noiseless counterpart on a 1 to 10 scale. Survey scores are compared across filters to evaluate whether there were significant differences in image quality scores received. Benchmark scores were compared to the visual perception scores. Then, an analysis of covariance test was run to identify whether or not survey training scores explained any unplanned variation in visual scores assigned by students across the filter methods.",
         projectLink: "Noise_Reduction_Research-STS499",
         pageLink: "noise_reduction",
-        paragraphOne: "",
-        contentOne: "",
-        paragraphTwo: "",
+        contentOne: (
+          <p>
+            This project started in early September and finished in Febrauary
+            with the submission of an article to a research journal. My mentor,
+            Dr. Laura Taylor, and I presented our work at two conferences (eUSR
+            and UNCG RMSC) during the fall semester and then, submitted a final
+            paper to the North Carolina Journal of Mathematics and Statistics in
+            February of 2019. I have attached the final presentation for the
+            eUSR conference along with more content about the project.
+          </p>
+        ),
         contentTwo: ""
       },
       {
@@ -60,9 +66,7 @@ class App extends Component {
           "This is an on going research area in the McLachlan Lab at the University of Notre Dame. The goal of this project is to implement a similar methodology implemented by Meghan Vahsen (a graduate student in the lab who classified Tamarisk in the Colorado River Basin) to monitor population abundance of species of sedge and grass in the Chesapeake. In particular, we have data from the Smithsonian Environmental Research Center's marshland plots.",
         projectLink: "DISC_chesapeake",
         pageLink: "DISC_chesapeake",
-        paragraphOne: "",
         contentOne: "",
-        paragraphTwo: "",
         contentTwo: ""
       },
       {
@@ -73,9 +77,7 @@ class App extends Component {
           "We recreated a Bayesian Poisson point process model from a paper written by Malcolm Itter. Malcolm Itter is a PhD candidate at Michigan State University studying forest demographic processes. The Bayesian model attempts to predict local fires surrounding lakes by investigating charcoal counts from the past as an indicator of a regional or local fire. The Poisson process is a fitting addition to the model given the use of charcoal counts. With that being said, the original model was developed on the notion that charcoal data could be separated into a background and a foreground where the background represents regional fire noise and the foreground represents peak charcoal amounts that are caused by a local fire. This idea held true in Alaskan lakes, but now we are interested as to whether or not this is the case with lakes residing in the Midwest. We have 18 lakes of interest that we will model separately first and then, jointly.",
         projectLink: "DISC_bayesian",
         pageLink: "DISC_bayesian",
-        paragraphOne: "",
         contentOne: "",
-        paragraphTwo: "",
         contentTwo: ""
       },
       {
@@ -86,7 +88,22 @@ class App extends Component {
           "In this project, I analyze the sentiment and lyrics in my own Spotify Saved Music library. I implement Gensim's LDA Topic Modeling, NLTK's Vader Sentiment Analyzer, and a multiple linear regression on data that I pull from the Spotify and Genius APIs. The project served as my final for CSC 401 - Data Mining and Machine Learning.",
         projectLink: "CSC401-Final-Project",
         pageLink: "mood_analysis",
-        contentOne: "",
+        contentOne: (
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vRXtYmoffGsX78iCQwvOGctLETh-53yK-k6w34RdV04MEpEydBcksWsMT49lC9s5wx_A8Bj3KH0glaT/embed?start=true&loop=true&delayms=30000"
+            frameborder="0"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+            style={{
+              margin: "auto",
+              display: "block",
+              width: "100%",
+              height: 500
+            }}
+            className="embed-content"
+          />
+        ),
         contentTwo: ""
       },
       {
