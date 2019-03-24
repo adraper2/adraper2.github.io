@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+import cv from "../content/aidan_draper_cv_2019.pdf";
 
 var myColors = { White: "#FFFFFF", Purple: "#8A2BE2" };
 
@@ -55,10 +56,7 @@ class NavBar extends Component {
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
-              <a
-                className="nav-link"
-                href="https://drive.google.com/file/d/1IQ16fE8xMedcYRaPZknN0keYl16-v7yM/view?usp=sharing"
-              >
+              <a className="nav-link" href={cv}>
                 CV
               </a>
             </li>

@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import firstpaper from "../content/image_denoising_survey_manuscript_draper_taylor.pdf";
+import reuPoster from "../content/final_poster-aidan_draper.pdf";
+import denoisePres from "../content/draper_sts499_research_pres.pdf";
 
 class Publications extends Component {
   state = {
@@ -10,8 +13,7 @@ class Publications extends Component {
         authors: "Aidan J. Draper and Laura L. Taylor",
         conference: "North Carolina Journal of Mathematics and Statistics",
         date: "Under Review",
-        link:
-          "https://drive.google.com/file/d/1IGt0naMDSIeAdVNg4FpDtcW5Uj9f1M4h/view?usp=sharing"
+        link: firstpaper
       }
     ],
     presentations: [
@@ -24,8 +26,7 @@ class Publications extends Component {
           "UNC, Greensboro Regional Mathematics and Statistics Conference",
         location: "Greensboro, NC,",
         date: "November 2018",
-        link:
-          "https://github.com/adraper2/Noise_Reduction_Research-STS499/blob/master/draper_sts499_research_pres.pdf"
+        link: denoisePres
       },
       {
         id: 2,
@@ -47,8 +48,7 @@ class Publications extends Component {
         conference: "University of Notre Dame Summer Research Symposium",
         location: "Notre Dame, IN,",
         date: "July 2018",
-        link:
-          "https://docs.google.com/presentation/d/10vzUYmJU-lYcq1PBKg6wO854jVhb3UXfOR7g09KFPvc/edit?usp=sharing"
+        link: reuPoster
       }
     ]
   };
