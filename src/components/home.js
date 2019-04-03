@@ -25,8 +25,7 @@ class Home extends Component {
           <ul>
             <li>Finish the portfolio page</li>
             <li>Add a JavaScript function to control the React Scrollspy</li>
-            <li>Implement a JSX Component for Project Pages</li>
-            <li>Make sure all the content is responsive to page dimensions</li>
+            <li>Test all of the UX for bugs</li>
             <li>And add SEO information for Google hits</li>
           </ul>
           <p>You can see all of my recent commits on GitHub below.</p>
@@ -43,7 +42,7 @@ class Home extends Component {
         <p>
           My next project will involve building a Convolutional Neural Network
           using PyTorch and OpenCV to track finger movements on a guitar
-          fretbaord! Check back soon for updates.
+          fretboard! Check back soon for updates.
         </p>
         <p>
           <b>
