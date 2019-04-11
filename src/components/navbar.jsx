@@ -41,11 +41,6 @@ class NavBar extends Component {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0 ">
             <li className="nav-item d-flex justify-content-end">
-              <NavLink exact to="/portfolio" className="nav-link">
-                Portfolio
-              </NavLink>
-            </li>
-            <li className="nav-item d-flex justify-content-end">
               <NavLink exact to="/projects" className="nav-link">
                 Projects
               </NavLink>
@@ -53,6 +48,11 @@ class NavBar extends Component {
             <li className="nav-item d-flex justify-content-end">
               <NavLink exact to="/publications" className="nav-link">
                 Publications
+              </NavLink>
+            </li>
+            <li className="nav-item d-flex justify-content-end">
+              <NavLink exact to="/hobbies" className="nav-link">
+                Hobbies
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">

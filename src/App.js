@@ -6,6 +6,7 @@ import Projects from "./components/projects";
 import Portfolio from "./components/portfolio";
 import Publications from "./components/publications";
 import ProjectPage from "./components/project-page";
+import Hobbies from "./components/hobbies";
 import "./App.css";
 import { Link, Route, Switch } from "react-router-dom";
 
@@ -442,7 +443,6 @@ class App extends Component {
         <main className="container">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/portfolio" component={Portfolio} />
             <Route
               path="/projects"
               render={props => <Projects {...props} state={this.state} />}
@@ -454,6 +454,7 @@ class App extends Component {
                 render={props => <ProjectPage {...props} project={project} />}
               />
             ))}
+            <Route path="/hobbies" component={Hobbies} />
             <Route component={NoMatch} />
           </Switch>
           <Footer />
