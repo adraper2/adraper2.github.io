@@ -38,7 +38,6 @@ class Home extends Component {
               Add a grid of cards using the React implementation of Material UI
             </li>
             <li>Test all of the UX for bugs</li>
-            <li>And fix SEO information for Google hits</li>
           </ul>
           <p>You can see all of my recent commits on GitHub below.</p>
           <p style={{ textAlign: "center" }}>
