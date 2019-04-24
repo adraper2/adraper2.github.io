@@ -69,7 +69,7 @@ class App extends Component {
         projectImage: "zoom_noise.png",
         projectTitle: "Visual Perceptions of Image Denoising",
         projectDesc:
-          "Statisticians, as well as machine learning and computer vision experts, have been studying image reconstitution through denoising different domains of photography, such as textual documentation, tomographic, astronomical, and low-light photography. In this paper, we apply common inferential kernel filters in the R and python languages, as well as Adobe Lightroom's denoise filter, and compare their effectiveness in removing noise from JPEG images. We ran standard benchmark tests to evaluate each method's effectiveness for removing noise. In doing so, we also surveyed students at Elon University about their opinion of a single filtered photo from a collection of photos processed by the various filter methods. Many scientists believe that noise filters cause blurring and image quality loss so we analyzed whether or not people felt as though denoising causes any quality loss as compared to their noiseless images. Individuals assigned scores indicating the image quality of a denoised photo compared to its noiseless counterpart on a 1 to 10 scale. Survey scores are compared across filters to evaluate whether there were significant differences in image quality scores received. Benchmark scores were compared to the visual perception scores. Then, an analysis of covariance test was run to identify whether or not survey training scores explained any unplanned variation in visual scores assigned by students across the filter methods.",
+          "This was a research endeavor at Elon University into college students' visual perceptions of denoised images. In this paper, we apply common inferential kernel filters in the R and python languages, as well as Adobe Lightroom's denoise filter, and compare their effectiveness in removing noise from JPEG images. We ran standard benchmark tests to evaluate each method's effectiveness for removing noise. In doing so, we also surveyed students at Elon University about their opinion of a single filtered photo from a collection of photos processed by the various filter methods. Many scientists believe that noise filters cause blurring and image quality loss so we analyzed whether or not people felt as though denoising causes any quality loss as compared to their noiseless images. Survey scores are compared across filters to evaluate whether there were significant differences in image quality scores received. An analysis of covariance test was run to identify whether or not survey training scores explained any unplanned variation in visual scores assigned by students across the filter methods.",
         projectLink: "Noise_Reduction_Research-STS499",
         pageLink: "noise_reduction",
         contentOne: (
@@ -83,7 +83,22 @@ class App extends Component {
             eUSR conference along with more content about the project.
           </p>
         ),
-        contentTwo: ""
+        contentTwo: (
+          <div
+            style={{
+              display: "inline-block",
+              width: "100vh",
+              height: "50vh"
+            }}
+          >
+            eUSR Submission Video:
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://drive.google.com/file/d/1hjeQlB-VuIrTBa82uusu8zE53PYTCTWK/preview"
+            />
+          </div>
+        )
       },
       {
         id: 2,
@@ -125,8 +140,8 @@ class App extends Component {
             style={{
               margin: "auto",
               display: "block",
-              width: "100%",
-              height: 500
+              width: 600,
+              height: 380
             }}
             className="embed-content"
           />

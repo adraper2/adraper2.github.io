@@ -25,7 +25,7 @@ class Home extends Component {
             where I am attempting to transcribe videos of guitar playing into
             tablature using OpenCV and a Convolutional Neural Network built
             within PyTorch. Additionally, I am finishing up the remaining
-            componenets of this website!
+            components of this website!
           </p>
           <p>
             I urge you to comeback soon. I built this site on March 10, 2018.
