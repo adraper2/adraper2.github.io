@@ -9,26 +9,29 @@ class Home extends Component {
             <code>Hello, world!</code>
           </p>
           <p>
-            <b>Who am I:</b> I am a senior studying Computer Science and
-            Statistics at Elon University in North Carolina. I plan on
-            graduating this May and attending the University of Notre Dame as a
-            Computer Science Ph.D. candidate and graduate assistant in the fall.
-            I will be working in the <a href="https://cvrl.nd.edu/">CVRL</a> at
-            Notre Dame. My research interests are in Machine Learning, Bayesian
-            Statistics, and general Classification Algorithms. I am particularly
-            interested in the intersection between Bayesian ideology and modern
-            Neural Network structure and the potential applications they could
-            have in Computer Vision and Ecology.
+            <b>Who am I:</b> I am a new graduate research assistant in the
+            Computer Vision Research Lab{" "}
+            <a href="https://cvrl.nd.edu/">(CVRL)</a> at Notre Dame. I am
+            working towards a PhD in Computer Science starting this Fall. I
+            graduated from Elon University this past Spring with degrees in
+            Computer Science and Statistics. To date, my research interests are
+            in Machine Learning, Bayesian Statistics, and general Classification
+            Algorithms. I am particularly interested in the intersection between
+            Bayesian ideology and modern Neural Network structure and the
+            potential applications they could have in Computer Vision and
+            Ecology.
           </p>
           <p>
-            <b>What have I been up to:</b> Recently, I have began a new project
-            where I am attempting to transcribe videos of guitar playing into
-            tablature using OpenCV and a Convolutional Neural Network built
-            within PyTorch. Additionally, I am finishing up the remaining
-            components of this website!
+            <b>What have I been up to:</b> As of right now, I am working on a
+            biometrics project involving various forms of fingerprint capture
+            and identification. On the backburner, I have a project where I am
+            attempting to transcribe videos of guitar playing into tablature
+            using OpenCV and a Convolutional Neural Network built within
+            PyTorch. Additionally, I am finishing up the remaining components of
+            this website!
           </p>
           <p>
-            I urge you to comeback soon. I built this site on March 10, 2018.
+            I urge you to comeback soon. I built this site on March 10, 2019.
             There is still more work to come.{" "}
           </p>
           For this website, I still have to:
