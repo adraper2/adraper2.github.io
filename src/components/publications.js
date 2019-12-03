@@ -8,12 +8,7 @@ class Publications extends Component {
     articles: [
       {
         id: 1,
-        title:
-          "A survey on the visual perceptions of gaussian noise filtering on photography",
-        authors: "Aidan J. Draper and Laura L. Taylor",
-        conference: "North Carolina Journal of Mathematics and Statistics",
-        date: "Under Review",
-        link: firstpaper
+        title: "Coming soon"
       }
     ],
     presentations: [

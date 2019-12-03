@@ -12,27 +12,30 @@ class Home extends Component {
             <b>Who am I:</b> I am a new graduate research assistant in the
             Computer Vision Research Lab{" "}
             <a href="https://cvrl.nd.edu/">(CVRL)</a> at Notre Dame. I am
-            working towards a PhD in Computer Science starting this Fall. I
-            graduated from Elon University this past Spring with degrees in
+            working towards a PhD in Computer Science as of this Fall. I
+            graduated from Elon University in the Spring of 2019 with degrees in
             Computer Science and Statistics. To date, my research interests are
-            in Machine Learning, Bayesian Statistics, and general Classification
-            Algorithms. I am particularly interested in the intersection between
-            Bayesian ideology and modern Neural Network structure and the
-            potential applications they could have in Computer Vision and
+            in Deep Learning, Bayesian Statistics, and general purpose ML
+            classification models. I am loosely interested in the potential
+            applications these models have in Computer Vision, Biometrics and
             Ecology.
           </p>
           <p>
             <b>What have I been up to:</b> As of right now, I am working on a
             biometrics project involving various forms of fingerprint capture
-            and identification. On the backburner, I have a project where I am
+            and identification. We are comparing matching accuaracies of
+            contactless scanners with traditional 2D live scanners. Currently, I
+            am investigating how an autoencoder network may be useful for this
+            problem. On the backburner, I have a fun side project where I am
             attempting to transcribe videos of guitar playing into tablature
-            using OpenCV and a Convolutional Neural Network built within
-            PyTorch. Additionally, I am finishing up the remaining components of
-            this website!
+            using a CNN and data collected from YouTube. Additionally, I will be
+            finishing up the remaining components of this website soon!
           </p>
           <p>
-            I urge you to comeback soon. I built this site on March 10, 2019.
-            There is still more work to come.{" "}
+            I urge you to comeback soon for project updates as well for the
+            introduction of a blog I am starting in the near future. I built
+            this site on March 10, 2019 and it is still in its draft stage.
+            There is more work to come.{" "}
           </p>
           For this website, I still have to:
           <ul>
@@ -42,7 +45,14 @@ class Home extends Component {
             </li>
             <li>Test all of the UX for bugs</li>
           </ul>
-          <p>You can see all of my recent commits on GitHub below.</p>
+          <p>
+            If you are interested in the code for this website, checkout my
+            GitHub repo{" "}
+            <a href="https://github.com/adraper2/adraper2.github.io/tree/source/src">
+              here
+            </a>
+            . You can see all of my recent commits on GitHub below.
+          </p>
           <p style={{ textAlign: "center" }}>
             <code>GitHub Commits</code>
           </p>
@@ -53,14 +63,7 @@ class Home extends Component {
           />
         </div>
         <br />
-        <p>
-          Also, checkout{" "}
-          <a href="https://drive.google.com/file/d/1IGt0naMDSIeAdVNg4FpDtcW5Uj9f1M4h/view?usp=sharing">
-            the preprint
-          </a>{" "}
-          of the article that I just submitted to the NC Journal of Mathematics
-          and Statistics!{" "}
-        </p>
+        <p>This site was last updated December 3rd, 2019.</p>
       </main>
     );
   }
