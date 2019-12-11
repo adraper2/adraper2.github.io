@@ -5,6 +5,27 @@ class Home extends Component {
     return (
       <main className="main-container">
         <div className="top-container">
+          <div className="aligned-container">
+            <div className="align" id="home_prof">
+              <img
+                id="prof-image"
+                src={require(`../images/grad_low_res.png`)}
+                style={{ height: 150 }}
+              />
+            </div>
+            <div className="align" id="home_github">
+              <p style={{ textAlign: "center" }}>
+                <code>GitHub Commits</code>
+              </p>
+              <img
+                className="github_chart"
+                src="http://ghchart.rshah.org/adraper2"
+                alt="github chart"
+              />
+            </div>
+          </div>
+          <br />
+          <hr />
           <p>
             <code>Hello, world!</code>
           </p>
@@ -53,17 +74,9 @@ class Home extends Component {
             </a>
             . You can see all of my recent commits on GitHub below.
           </p>
-          <p style={{ textAlign: "center" }}>
-            <code>GitHub Commits</code>
-          </p>
-          <img
-            className="github_chart"
-            src="http://ghchart.rshah.org/adraper2"
-            alt="github chart"
-          />
         </div>
         <br />
-        <p>This site was last updated December 3rd, 2019.</p>
+        <p>This site was last updated December 11th, 2019.</p>
       </main>
     );
   }

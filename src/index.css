@@ -57,13 +57,33 @@ html {
   position: relative;
   overflow: hidden;
   display: block;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   top: 64px;
   min-height: 90vh;
 }
 
 .main-container {
   position: relative;
+}
+
+.aligned-container {
+  position: relative;
+  text-align: center;
+}
+
+.align {
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+}
+
+#home_prof {
+  max-width: 15%;
+}
+
+#home_github {
+  max-width: 85%;
+  padding-left: 5%;
 }
 
 /* Portfolio CSS ----------- */
@@ -249,7 +269,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 90%;
 }
 
 /* Project page CSS ----------- */
