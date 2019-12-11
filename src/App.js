@@ -27,11 +27,41 @@ class App extends Component {
     isTop: true,
     projects: [
       {
+        id: 100,
+        projectImage: "zachs-esn_keystrokes.png",
+        projectTitle: "Neural Keystroke Dynamics",
+        projectDesc:
+          "Two of my colleagues (Jeremy Speth and Zach Carmichael) at Notre Dame and I built an Echo State Network (ESN) to process raw long-text input from a Keylogger in order to identify users based on their typing features, such as dwell time, and key latency. I was primarily responsible for the Keylogger GUI along with data collection and processing. Our model underperforms the state-of-the-art, but has a better run-time efficiency for a real system. Full credit goes to Zach for building the model and the pretty topology.",
+        projectLink: "KeyloggerGUI",
+        pageLink: "neural_keystrokes",
+        contentOne: (
+          <div>
+            <p>Project contents coming soon!</p>
+          </div>
+        ),
+        contentTwo: ""
+      },
+      {
+        id: 101,
+        projectImage: "peace_cloud.png",
+        projectTitle: "3D Hand Gesture Classification",
+        projectDesc:
+          "For my semester project in Graduate Computer Vision I, I was curious whether or not I could classify 4 different hand gestures using the features from their 3D point clouds generated from SfM, specifically Colmap's algorithm.",
+        projectLink: "3DHandClassification",
+        pageLink: "hand_classifier",
+        contentOne: (
+          <div>
+            <p>Project contents coming soon!</p>
+          </div>
+        ),
+        contentTwo: ""
+      },
+      {
         id: 5,
         projectImage: "reactLogo.png",
         projectTitle: "ReactJS Portfolio Site",
         projectDesc:
-          "This is my current project. I am building a Single Page Application portfolio site using the React JS library, all of which is hosted on Github Pages. I also use the GitHub API to pull current repository information. Prior to this experience, I had very little JavaScript exposure and no ReactJS background. It has been a great experience learning how the React Server DOM helps optimize runtime of Front End UIs. Hope you enjoy the site!",
+          "I built a Single Page Application portfolio site using the React JS library, all of which is hosted on Github Pages. I also use the GitHub API to pull current repository information. Prior to this experience, I had very little JavaScript exposure and no ReactJS background. It has been a great experience learning how the React Server DOM helps optimize runtime of Front End UIs. Hope you enjoy the site! Check out my source branch on GitHub if you would like to mimic this style.",
         projectLink: "adraper2.github.io",
         pageLink: "portfolio_site",
         contentOne: (
@@ -204,7 +234,7 @@ class App extends Component {
       {
         id: 7,
         projectImage: "clt.png",
-        projectTitle: "Central Limit Theorem Shiny Applciation",
+        projectTitle: "Central Limit Theorem Shiny Application",
         projectDesc:
           "This was the final project for our STS 347, Statistical Modeling in R, class. For the project, we created a Shiny App within R to show to statistical and non-statistical audiences how the Central Limit Theorem works. This app was created by Aidan Draper, Christian Wagner, Chris Laskay, and Graham Parker.",
         projectLink: "sts347-final",
