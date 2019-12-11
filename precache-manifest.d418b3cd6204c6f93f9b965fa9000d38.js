@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c6aaf6ba81535d6d83b5f581cbaa721c",
-    "url": "/static/media/repo-forked.c6aaf6ba.svg"
+    "revision": "415583ac4ea98caba4991e0e83b7b612",
+    "url": "/static/media/final_poster-aidan_draper.415583ac.pdf"
   },
   {
-    "revision": "c27c0c6f6d6dd342d2ff",
-    "url": "/static/css/main.0fe0046d.chunk.css"
+    "revision": "556cbf517bef506a490d",
+    "url": "/static/css/main.40c9afbf.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/image_denoising_survey_manuscript_draper_taylor.44f11537.pdf"
   },
   {
-    "revision": "1184b96c2fd59a0b2608",
-    "url": "/static/js/2.bd8c61d7.chunk.js"
+    "revision": "8125eb439257ffeb5a30",
+    "url": "/static/js/2.af72aa33.chunk.js"
   },
   {
     "revision": "0baecffbf5dbe4fc9ba2962d212735e8",
@@ -48,12 +48,12 @@ self.__precacheManifest = [
     "url": "/static/media/history.5922c6df.svg"
   },
   {
-    "revision": "c27c0c6f6d6dd342d2ff",
-    "url": "/static/js/main.2d7c0492.chunk.js"
+    "revision": "c6aaf6ba81535d6d83b5f581cbaa721c",
+    "url": "/static/media/repo-forked.c6aaf6ba.svg"
   },
   {
-    "revision": "415583ac4ea98caba4991e0e83b7b612",
-    "url": "/static/media/final_poster-aidan_draper.415583ac.pdf"
+    "revision": "556cbf517bef506a490d",
+    "url": "/static/js/main.0ded4e81.chunk.js"
   },
   {
     "revision": "c0c50ddb63b200935564c333ed9d0560",
@@ -72,6 +72,10 @@ self.__precacheManifest = [
     "url": "/static/media/kendrick.01b21200.jpeg"
   },
   {
+    "revision": "cf2185ec9505ef93203a5b37322c0837",
+    "url": "/static/media/peace_cloud.cf2185ec.png"
+  },
+  {
     "revision": "48f7df7db6349433aed9cf78a0dbe8bf",
     "url": "/static/media/prediction_visual_scam2.48f7df7d.png"
   },
@@ -84,15 +88,19 @@ self.__precacheManifest = [
     "url": "/static/media/spotify_mood.5d23c5c6.jpg"
   },
   {
+    "revision": "e5fc4086de655f0f0ec9b5d9118838ec",
+    "url": "/static/media/zachs-esn_keystrokes.e5fc4086.png"
+  },
+  {
     "revision": "e0ee8eef9d925690c016adfea1be5bb3",
     "url": "/static/media/zoom_noise.e0ee8eef.png"
   },
   {
-    "revision": "1184b96c2fd59a0b2608",
+    "revision": "8125eb439257ffeb5a30",
     "url": "/static/css/2.90860d4a.chunk.css"
   },
   {
-    "revision": "ef570b636f7bbfab22aa438805a9985b",
+    "revision": "4c10f14c0257572aad4a34b4c166de79",
     "url": "/index.html"
   }
 ];
