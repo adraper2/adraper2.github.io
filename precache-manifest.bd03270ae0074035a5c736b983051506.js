@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/final_poster-aidan_draper.415583ac.pdf"
   },
   {
-    "revision": "556cbf517bef506a490d",
-    "url": "/static/css/main.40c9afbf.chunk.css"
+    "revision": "44960023846076c2b166",
+    "url": "/static/css/main.650ef8f9.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,12 @@ self.__precacheManifest = [
     "url": "/static/media/image_denoising_survey_manuscript_draper_taylor.44f11537.pdf"
   },
   {
-    "revision": "8125eb439257ffeb5a30",
-    "url": "/static/js/2.af72aa33.chunk.js"
+    "revision": "a624513c201a1f25410d",
+    "url": "/static/js/2.952b322c.chunk.js"
+  },
+  {
+    "revision": "29acc619c49e8edb23d6678f3b89de6f",
+    "url": "/static/media/grad_low_res.29acc619.png"
   },
   {
     "revision": "0baecffbf5dbe4fc9ba2962d212735e8",
@@ -52,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/repo-forked.c6aaf6ba.svg"
   },
   {
-    "revision": "556cbf517bef506a490d",
-    "url": "/static/js/main.0ded4e81.chunk.js"
+    "revision": "44960023846076c2b166",
+    "url": "/static/js/main.ac9425e6.chunk.js"
   },
   {
     "revision": "c0c50ddb63b200935564c333ed9d0560",
@@ -66,6 +70,10 @@ self.__precacheManifest = [
   {
     "revision": "36f536f5931353e8c4ec26079ac73c45",
     "url": "/static/media/clt.36f536f5.png"
+  },
+  {
+    "revision": "5777938bbf469a64e04389138d3f2a18",
+    "url": "/static/media/grad_low_res.5777938b.jpg"
   },
   {
     "revision": "01b2120048fba43bee9b602885c1060a",
@@ -96,11 +104,11 @@ self.__precacheManifest = [
     "url": "/static/media/zoom_noise.e0ee8eef.png"
   },
   {
-    "revision": "8125eb439257ffeb5a30",
+    "revision": "a624513c201a1f25410d",
     "url": "/static/css/2.90860d4a.chunk.css"
   },
   {
-    "revision": "4c10f14c0257572aad4a34b4c166de79",
+    "revision": "91242c776296c5aa5ed7213c34e455de",
     "url": "/index.html"
   }
 ];
