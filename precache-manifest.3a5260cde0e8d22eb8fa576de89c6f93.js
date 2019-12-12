@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/final_poster-aidan_draper.415583ac.pdf"
   },
   {
-    "revision": "44960023846076c2b166",
-    "url": "/static/css/main.650ef8f9.chunk.css"
+    "revision": "680407364caf19d8f6f0",
+    "url": "/static/css/main.1b62c993.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/repo-forked.c6aaf6ba.svg"
   },
   {
-    "revision": "44960023846076c2b166",
-    "url": "/static/js/main.ac9425e6.chunk.js"
+    "revision": "680407364caf19d8f6f0",
+    "url": "/static/js/main.12d1eea1.chunk.js"
   },
   {
     "revision": "c0c50ddb63b200935564c333ed9d0560",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.90860d4a.chunk.css"
   },
   {
-    "revision": "91242c776296c5aa5ed7213c34e455de",
+    "revision": "34b3ab09ade7726fc89f8ae8833b34b7",
     "url": "/index.html"
   }
 ];
