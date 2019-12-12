@@ -227,6 +227,30 @@ html {
   .main-container {
     top: 0px;
   }
+
+  .aligned-container {
+    position: relative;
+    text-align: center;
+  }
+
+  .align {
+    display: block;
+    position: block;
+  }
+
+  #prof-image {
+    padding-left: 25px;
+    padding-bottom: 10px;
+  }
+
+  #home_prof {
+    max-width: 100%;
+  }
+
+  #home_github {
+    max-width: 100%;
+  }
+
   .project-box {
     display: flex;
     flex-direction: column;

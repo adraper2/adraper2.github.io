@@ -50,7 +50,8 @@ class Publications extends Component {
   render() {
     return (
       <div style={{ paddingTop: 20 }}>
-        <h4>Journal Articles</h4>
+        <h4>Articles:</h4>
+        <hr className="hr-class" />
         {this.state.articles.map(article => (
           // start showing article stuff
           <p>
@@ -65,7 +66,8 @@ class Publications extends Component {
             </a>
           </p>
         ))}
-        <h4>Presentations</h4>
+        <h4>Presentations:</h4>
+        <hr className="hr-class" />
         {this.state.presentations.map(pres => (
           //start showing pres stuff
           <p>
