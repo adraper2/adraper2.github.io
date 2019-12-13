@@ -250,13 +250,13 @@ class App extends Component {
               Limit Theorem works. This app was created by Aidan Draper,
               Christian Wagner, Chris Laskay, and Graham Parker.
             </p>
-            <Link to="https://adraper2.shinyapps.io/CentralLimit/">
+            <a href="https://adraper2.shinyapps.io/CentralLimit/">
               Access our app here.
-            </Link>
+            </a>
             <br />
-            <Link to="https://github.com/adraper2/sts347-final">
+            <a href="https://github.com/adraper2/sts347-final">
               View our code here.
-            </Link>
+            </a>
             <br />
             <br />
             <h2>Tutorial</h2>

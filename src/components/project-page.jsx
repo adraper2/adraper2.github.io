@@ -32,7 +32,8 @@ class ProjectPage extends Component {
         <p>
           <b>Brief overview:</b> <i>{projectDesc}</i>
         </p>
-        <h4>In-depth Overview</h4>
+        <h4>In-depth Overview:</h4>
+        <hr className="hr-class" />
         {contentOne}
         <br />
         {contentTwo}

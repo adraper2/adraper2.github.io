@@ -54,7 +54,7 @@ class Publications extends Component {
         <hr className="hr-class" />
         {this.state.articles.map(article => (
           // start showing article stuff
-          <p>
+          <p className="pub-ref">
             {article.id}. {article.authors}. {article.title}.{" "}
             <i>{article.conference}</i>. {article.date}.
             <a
@@ -70,7 +70,7 @@ class Publications extends Component {
         <hr className="hr-class" />
         {this.state.presentations.map(pres => (
           //start showing pres stuff
-          <p>
+          <p className="pub-ref">
             {pres.id}. "{pres.title}," with {pres.authors}, {pres.kind} at the{" "}
             <i>{pres.conference}</i>, {pres.location} {pres.date}.
             <a

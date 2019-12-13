@@ -194,6 +194,12 @@ html {
   border: 1px solid darkslategrey;
 }
 
+/* Publications page ----------- */
+
+.pub-ref {
+  padding-left: 20px;
+}
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 899px) {
   .project-image {
