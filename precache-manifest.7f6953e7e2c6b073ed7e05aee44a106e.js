@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/final_poster-aidan_draper.415583ac.pdf"
   },
   {
-    "revision": "3d6d3a03e6d26a191357",
+    "revision": "70cace8c8937895d6d33",
     "url": "/static/css/main.1da2e32b.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/p3.e785d27a.png"
   },
   {
-    "revision": "2a4c63eec03296241b35cad322065b45",
-    "url": "/static/media/aidan_draper_cv_2019.2a4c63ee.pdf"
+    "revision": "a2ad981e0d6e94012103ea36e07204d9",
+    "url": "/static/media/aidan_draper_cv_2020.a2ad981e.pdf"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/repo-forked.c6aaf6ba.svg"
   },
   {
-    "revision": "3d6d3a03e6d26a191357",
-    "url": "/static/js/main.01444f23.chunk.js"
+    "revision": "70cace8c8937895d6d33",
+    "url": "/static/js/main.599ef729.chunk.js"
   },
   {
     "revision": "c0c50ddb63b200935564c333ed9d0560",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.90860d4a.chunk.css"
   },
   {
-    "revision": "a61e43b61882739ef8f4dd9f349a3dcf",
+    "revision": "205111325f78537c46d3c2307201547d",
     "url": "/index.html"
   }
 ];
