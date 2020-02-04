@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import cv from "../content/aidan_draper_cv_2019.pdf";
+import cv from "../content/aidan_draper_cv_2020.pdf";
 
 var myColors = { White: "#FFFFFF", Purple: "#8A2BE2" };
 
