@@ -21,8 +21,8 @@ npm run deploy
 ```
 
 ## To do
-- [] Add py_scripts to make a new text project and update projects.json
-- [] Setup same format for publications
-- [] Finish hobbies page
-- [] Design nicer looking footer
-- [] Add darkmode button
+- [ ] Add py_scripts to make a new text project and update projects.json
+- [ ] Setup same format for publications
+- [ ] Finish hobbies page
+- [ ] Design nicer looking footer
+- [ ] Add darkmode button
