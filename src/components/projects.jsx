@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Project from "./project";
+import json_projects from '../content/projects.json'
 
 class Projects extends Component {
   state = {
-    projects: [],
-    grad_projects: []
+    projects: json_projects
   };
 
   constructor(props) {
@@ -12,12 +12,16 @@ class Projects extends Component {
   }
 
   componentDidMount() {
-    let myProjects = this.props.state.projects;
-    let gradProjects = this.props.state.grad_projects;
-    this.setState({
-      projects: myProjects,
-      grad_projects: gradProjects
-    });
+    this._checkProjects();
+    console.log(this.state.projects);
+  }
+
+  _checkProjects(){
+      this.setState({projects: json_projects});
+  }
+
+  _checkProjects(){
+      this.setState({projects: json_projects});
   }
 
   render() {
