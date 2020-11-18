@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/clt.36f536f5.png"
   },
   {
-    "revision": "4b8631b6dc8f83e42821",
-    "url": "/static/css/main.843ba3c6.chunk.css"
+    "revision": "06037e35963dbdb05796",
+    "url": "/static/css/main.39589010.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/static/media/image_denoising_survey_manuscript_draper_taylor.44f11537.pdf"
   },
   {
-    "revision": "69edcedbf59306a0c9fc",
+    "revision": "0c753157076e43364210",
     "url": "/static/js/2.b109947e.chunk.js"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/chopper_results.41e65707.png"
   },
   {
-    "revision": "4b8631b6dc8f83e42821",
-    "url": "/static/js/main.fe75bd62.chunk.js"
+    "revision": "06037e35963dbdb05796",
+    "url": "/static/js/main.152e8d54.chunk.js"
   },
   {
     "revision": "5777938bbf469a64e04389138d3f2a18",
@@ -104,11 +104,11 @@ self.__precacheManifest = [
     "url": "/static/media/zoom_noise.e0ee8eef.png"
   },
   {
-    "revision": "69edcedbf59306a0c9fc",
-    "url": "/static/css/2.ce032315.chunk.css"
+    "revision": "0c753157076e43364210",
+    "url": "/static/css/2.080525fa.chunk.css"
   },
   {
-    "revision": "13fd90a93eb7608eb82b9f5e3e62f7a4",
+    "revision": "d484fa75b065fd8af00eb75184b6ac38",
     "url": "/index.html"
   }
 ];
