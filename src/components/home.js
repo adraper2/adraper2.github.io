@@ -35,44 +35,41 @@ class Home extends Component {
             Notre Dame. I have been working towards a PhD in Computer Science
             since July of 2019. I graduated from Elon University in the Spring
             of 2019 with degrees in Computer Science and Statistics. To date, my
-            research interests are in Deep Learning, Bayesian Statistics, and
-            general purpose ML classification models. I am <i>loosely</i>{" "}
-            interested in the potential applications these models have in
-            Computer Vision, Biometrics and Ecology.
+            research interests are in depth estimation from multiview scenes and 
+            connecting neural topology with the human brain. I am working towards
+            applications of these models to solve problems in Pyschology
+            Computer Vision, and Biometrics.
           </p>
           <p>
-            <b>What have I been up to:</b> As of right now, I am working on a
-            biometrics project involving various forms of fingerprint capture
-            and identification. We are comparing matching accuaracies of
-            contactless scanners with traditional 2D live scanners. Currently, I
-            am investigating how an autoencoder network may be useful for this
-            problem. On the backburner, I have a fun side project where I am
-            attempting to transcribe videos of guitar playing into tablature
-            using a CNN and data collected from YouTube. Additionally, I will be
-            finishing up the remaining components of this website soon!
+            <b>What have I been up to:</b> Currently, I am wrapping up a
+            fingerprint biometrics project that is exploring ways to improve the verification
+            score of unconstrained, contactless smartphone fingerprint scanners
+            when matching with legacy contact-based images. I am looking to improve depth reconstruction
+            from RGB cameras when using left-right consistency-based unsupervised depth estimation models. 
+            My spare time is spent on studying the intersection of modern neural toplogies with our current 
+            understanding of the human brain through the context of emotional response to images. 
+            One day I will be finishing up the remaining components of this website! But not anytime soon...
           </p>
           <p>
             <b>What am I interested in:</b> I follow the premier league (YNWA!)
-            and play on a few local teams in South Bend. I do my best to follow
-            other sports, like college football and basketball, but I cannot say
-            that I am always up-to-date. In New York, I loved to Kayak and Hike.
+            and play on a few local soccer teams in South Bend. I am an avid cyclist and race with the ND Cycling Team.
+            I do my best to follow other sports, like college football and basketball, but I cannot say
+            that I always keep up-to-date. In New York, I loved to Kayak and Hike.
             I have a 4 year old Aussie named Chance, who is super loveable but
             also VERY energetic.
           </p>
           <p>
-            I urge you to comeback soon for project updates as well for the
+            I urge you to comeback soon for my project updates as well for the
             introduction of the blog I am starting in the near future. I built
-            this site on March 10, 2019 and it is still far from complete. There
-            is more work to come.{" "}
+            this site on March 10, 2019 and there is much more work I can do for it.{" "}
           </p>
-          What I am working on for this website:
+          Unfinished website components:
           <ul>
             <li>
-              Finishing the hobbies page - Adding a grid of cards using the
-              React implementation of Material UI
+              Starting hobbies page (or a blog...) 
             </li>
             <li>Updating my CV and project pages</li>
-            <li>Finishing and deploying the blog page</li>
+            <li>Finishing project creation python script through json objects (if you have a better idea, please message me!!!)</li>
           </ul>
           <p>
             If you are interested in the code for this website, checkout my
@@ -80,11 +77,11 @@ class Home extends Component {
             <a href="https://github.com/adraper2/adraper2.github.io/tree/source/src">
               here
             </a>
-            . You can see all of my recent commits on GitHub below.
+            .
           </p>
         </div>
         <br />
-        <p>This site was last updated December 11th, 2019.</p>
+        <p>This site was last updated November 18th, 2020.</p>
       </main>
     );
   }
