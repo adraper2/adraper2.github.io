@@ -1,0 +1,23 @@
+[
+    {  "id": 100,
+    "hobbyImage": "spotify_mood.jpg",
+    "hobbyTitle": "Cycling",
+    "hobbyDesc":
+        "Insert cycling description here",
+    "hobbyLink": "cycling_hobby"
+  },
+  {  "id": 101,
+    "hobbyImage": "spotify_mood.jpg",
+    "hobbyTitle": "Soccer",
+    "hobbyDesc":
+        "Insert soccer description here",
+    "hobbyLink": "soccer_hobby"
+  },
+  {  "id": 102,
+    "hobbyImage": "spotify_mood.jpg",
+    "hobbyTitle": "Photography",
+    "hobbyDesc":
+     "Insert photos description here",
+    "hobbyLink": "photo_hobby"
+  }
+]

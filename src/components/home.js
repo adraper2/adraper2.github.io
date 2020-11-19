@@ -37,7 +37,7 @@ class Home extends Component {
             of 2019 with degrees in Computer Science and Statistics. To date, my
             research interests are in depth estimation from multiview scenes and 
             connecting neural topology with the human brain. I am working towards
-            applications of these models to solve problems in Pyschology
+            applications of these models to solve problems in Pyschology,
             Computer Vision, and Biometrics.
           </p>
           <p>

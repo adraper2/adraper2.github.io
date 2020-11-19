@@ -199,6 +199,23 @@ html {
   border: 1px solid darkslategrey;
 }
 
+/* Hobbies page ---------------- */
+
+.hobby-image {
+  width: 100%;
+  max-height: auto;
+  margin: auto;
+  max-width: 240px;
+}
+
+.hobby-box {
+  float: left;
+  width: 30%;
+  min-height: 10vh;
+  overflow: hidden;
+  margin: 1.5%;
+}
+
 /* Publications page ----------- */
 
 .pub-ref {
