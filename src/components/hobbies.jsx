@@ -19,16 +19,13 @@ class Hobbies extends Component {
   _checkHobbies(){
       this.setState({hobbies: json_hobbies});
   }
-
-  _checkHobbies(){
-      this.setState({hobbies: json_hobbies});
-  }
   render() {
     return (
       <div className="container">
         <div>
-          Hello! You made it to my newest page. Sorry, I'm not quite finished
-          with this one yet... if you cannot already tell.
+          Content updates coming soon!
+          <br />
+          <br />
         </div>
         <div>
           {this.state.hobbies.map(hobby => {

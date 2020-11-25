@@ -56,6 +56,11 @@ class NavBar extends Component {
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
+              <NavLink exact to="/blog" className="nav-link">
+                Blog
+              </NavLink>
+            </li>
+            <li className="nav-item d-flex justify-content-end">
               <a className="nav-link" href={cv}>
                 CV
               </a>

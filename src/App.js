@@ -7,6 +7,7 @@ import Portfolio from "./components/portfolio";
 import Publications from "./components/publications";
 import ProjectPage from "./components/project-page";
 import Hobbies from "./components/hobbies";
+import Blogs from "./components/blogs";
 import "./App.css";
 import { Link, Route, Switch } from "react-router-dom";
 import json_projects from './content/projects.json'
@@ -61,6 +62,7 @@ class App extends Component {
               />
             ))}
             <Route path="/hobbies" component={Hobbies} />
+            <Route path="/blog" component={Blogs} />
             <Route component={NoMatch} />
           </Switch>
           <Footer />

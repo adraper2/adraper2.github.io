@@ -27,7 +27,7 @@ class Home extends Component {
           <br />
           <hr />
           <p>
-            <code>Hello, world!</code>
+            <code>Hey, world!</code>
           </p>
           <p>
             <b>Who am I:</b> I am a graduate research assistant in the Computer
@@ -51,7 +51,7 @@ class Home extends Component {
             One day I will be finishing up the remaining components of this website! But not anytime soon...
           </p>
           <p>
-            <b>What am I interested in:</b> I follow the premier league (YNWA!)
+            <b>What am I interested in:</b> I follow the premier league (YNWA)
             and play on a few local soccer teams in South Bend. I am an avid cyclist and race with the ND Cycling Team.
             I do my best to follow other sports, like college football and basketball, but I cannot say
             that I always keep up-to-date. In New York, I loved to Kayak and Hike.
@@ -66,10 +66,10 @@ class Home extends Component {
           Unfinished website components:
           <ul>
             <li>
-              Starting hobbies page (or a blog...) 
+              Starting hobbies page (and a blog?) 
             </li>
             <li>Updating my CV and project pages</li>
-            <li>Finishing project creation python script through json objects (if you have a better idea, please message me!!!)</li>
+            <li>Finishing a project creation python script to make adding content easier</li>
           </ul>
           <p>
             If you are interested in the code for this website, checkout my
@@ -81,7 +81,6 @@ class Home extends Component {
           </p>
         </div>
         <br />
-        <p>This site was last updated November 18th, 2020.</p>
       </main>
     );
   }

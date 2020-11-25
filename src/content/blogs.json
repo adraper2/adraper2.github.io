@@ -1,0 +1,9 @@
+[
+    {  "id": 100,
+    "blogImage": "spotify_mood.jpg",
+    "blogTitle": "First Blog Post",
+    "blogDesc":
+        "Insert blog description here",
+    "blogLink": "first_blog"
+  }
+]

@@ -5,6 +5,7 @@ import github_image from "../content/Github.png";
 import insta_image from "../content/Instagram.png";
 import link_image from "../content/Linkedin.png";
 import twit_image from "../content/Twitter.png";
+//import classes from "*.module.css";
 
 class Footer extends Component {
   state = {};
@@ -50,6 +51,7 @@ class Footer extends Component {
           />
           Built using React.{" "}
         </div>
+        <div align="center"><p><i>Site last updated: <code>November 18th, 2020</code>.</i></p></div>
       </div>
     );
   }
