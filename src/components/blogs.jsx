@@ -24,7 +24,7 @@ class Blogs extends Component {
     return (
       <div className="container">
         <div>
-          Content updates coming soon!
+          One day I'll actually use this page.
           <br/>
           <br/>
         </div>

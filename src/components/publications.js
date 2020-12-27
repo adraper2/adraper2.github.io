@@ -8,7 +8,11 @@ class Publications extends Component {
     articles: [
       {
         id: 1,
-        title: "Coming soon"
+        title: "A survey on the visual perceptions of Gaussian noise filtering on photography",
+        authors: "A. Draper, L. Taylor",
+        date:"2020",
+        conference: "arXiv preprint",
+        link: "https://arxiv.org/abs/2012.10472",
       }
     ],
     presentations: [
@@ -55,8 +59,8 @@ class Publications extends Component {
         {this.state.articles.map(article => (
           // start showing article stuff
           <p className="pub-ref">
-            {article.id}. {article.authors}. {article.title}.{" "}
-            <i>{article.conference}</i>. {article.date}.
+            {article.id}. {article.authors}, "{article.title}",{" "} appears in{" "}
+            <i>{article.conference}</i>, {article.date}.
             <a
               className="project_tag"
               href={article.link}

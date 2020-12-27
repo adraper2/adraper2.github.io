@@ -1,9 +1,9 @@
 [
     {  "id": 100,
-    "blogImage": "spotify_mood.jpg",
-    "blogTitle": "First Blog Post",
+    "blogImage": "chance.jpg",
+    "blogTitle": "Blog post filler",
     "blogDesc":
-        "Insert blog description here",
+        "Enjoy a picture of Chance instead!",
     "blogLink": "first_blog"
   }
 ]

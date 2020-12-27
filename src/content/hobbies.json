@@ -1,23 +1,23 @@
 [
     {  "id": 100,
-    "hobbyImage": "spotify_mood.jpg",
+    "hobbyImage": "cycling.jpg",
     "hobbyTitle": "Cycling",
     "hobbyDesc":
-        "Insert cycling description here",
+        "A new hobby as of 2020. I find a lot of enjoyment in the sport and participate on the ND Cycling Team.",
     "hobbyLink": "cycling_hobby"
   },
   {  "id": 101,
-    "hobbyImage": "spotify_mood.jpg",
+    "hobbyImage": "soccer.jpg",
     "hobbyTitle": "Soccer",
     "hobbyDesc":
-        "Insert soccer description here",
+        "I have been playing since a toddler. Now, I play in several rec leagues in South Bend and through Notre Dame.",
     "hobbyLink": "soccer_hobby"
   },
   {  "id": 102,
-    "hobbyImage": "spotify_mood.jpg",
+    "hobbyImage": "IMG_0126.jpg",
     "hobbyTitle": "Photography",
     "hobbyDesc":
-     "Insert photos description here",
+     "I enjoy documenting things. This hobby may have even led me to pursue computer vision as a specialization. Here are some of the photos I've taken.",
     "hobbyLink": "photo_hobby"
   }
 ]

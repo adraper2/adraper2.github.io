@@ -23,7 +23,7 @@ class Hobbies extends Component {
     return (
       <div className="container">
         <div>
-          Content updates coming soon!
+          I have been busy. There are more content updates coming soon.
           <br />
           <br />
         </div>
