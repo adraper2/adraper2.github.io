@@ -1,31 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "41e657072f976b415b8f8402cce966a2",
-    "url": "/static/media/chopper_results.41e65707.png"
+    "revision": "d0785e0b5ff98afeea0c",
+    "url": "/static/css/main.95533f41.chunk.css"
   },
   {
-    "revision": "0d5c897b495c32e89116",
-    "url": "/static/css/main.99434fc7.chunk.css"
+    "revision": "d0785e0b5ff98afeea0c",
+    "url": "/static/js/main.cae009e1.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "44f115375a490418221ac699ffd4dfb5",
-    "url": "/static/media/image_denoising_survey_manuscript_draper_taylor.44f11537.pdf"
+    "revision": "ea95a395e96e8b6aab7f",
+    "url": "/static/css/2.43a02acd.chunk.css"
   },
   {
-    "revision": "f3bcb07a32614c479bb4",
-    "url": "/static/js/2.9e9fefbe.chunk.js"
+    "revision": "ea95a395e96e8b6aab7f",
+    "url": "/static/js/2.6d1edfef.chunk.js"
   },
   {
     "revision": "29acc619c49e8edb23d6678f3b89de6f",
     "url": "/static/media/grad_low_res.29acc619.png"
   },
   {
-    "revision": "b6a240f55b0519020c790e01c1354251",
-    "url": "/static/media/aidan_draper_cv_2020.b6a240f5.pdf"
+    "revision": "b1e59493567f2a4c58f3fd6709dd6bef",
+    "url": "/static/media/aidan_draper_de_resume_2021.b1e59493.pdf"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/chance.ec316d53.jpg"
   },
   {
-    "revision": "0d5c897b495c32e89116",
-    "url": "/static/js/main.cf43e5fc.chunk.js"
+    "revision": "41e657072f976b415b8f8402cce966a2",
+    "url": "/static/media/chopper_results.41e65707.png"
   },
   {
     "revision": "36f536f5931353e8c4ec26079ac73c45",
@@ -124,11 +124,11 @@ self.__precacheManifest = [
     "url": "/static/media/zoom_noise.e0ee8eef.png"
   },
   {
-    "revision": "f3bcb07a32614c479bb4",
-    "url": "/static/css/2.080525fa.chunk.css"
+    "revision": "44f115375a490418221ac699ffd4dfb5",
+    "url": "/static/media/image_denoising_survey_manuscript_draper_taylor.44f11537.pdf"
   },
   {
-    "revision": "0035e78534092febc3f1d5b30872bc1b",
+    "revision": "0288eee0f2b01d08c1b35b8eb49f502c",
     "url": "/index.html"
   }
 ];
