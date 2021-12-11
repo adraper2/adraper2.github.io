@@ -1,5 +1,25 @@
 [
-      {  "id": 100,
+  {  "id": 200,
+    "projectImage": "grad_low_res.png",
+    "projectTitle": "Current Work",
+    "projectDesc":
+      "This content will be updated later with a greater description of my current work and projects.",
+    "projectLink": "current",
+    "pageLink": "current",
+    "contentOne": "<div><p>Project contents coming soon!</p></div>",
+    "contentTwo": ""
+  },   
+  {  "id": 102,
+    "projectImage": "grad_low_res.png",
+    "projectTitle": "Graduate Research",
+    "projectDesc":
+      "This content will be updated later with a greater description of my primary research at Notre Dame.",
+    "projectLink": "ND_Research",
+    "pageLink": "nd_research",
+    "contentOne": "<div><p>Project contents coming soon!</p></div>",
+    "contentTwo": ""
+  },    
+  {  "id": 100,
       "projectImage": "zachs-esn_keystrokes.png",
       "projectTitle": "Neural Keystroke Dynamics",
       "projectDesc":

@@ -40,7 +40,7 @@ class Footer extends Component {
           </a>
         </div>
         <div align="center" className="footer-element">
-          Copyright &copy; 2019 | Aidan James Draper
+          Copyright &copy; 2021 | Aidan James Draper
         </div>
         <div align="center" className="footer-element">
           <img
@@ -51,7 +51,7 @@ class Footer extends Component {
           />
           Built using React.{" "}
         </div>
-        <div align="center"><p><i>Site last updated: <code>November 18th, 2020</code>.</i></p></div>
+        <div align="center"><p><i>Site last updated: <code>December, 2021</code>.</i></p></div>
       </div>
     );
   }

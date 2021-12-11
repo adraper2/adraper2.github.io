@@ -27,11 +27,21 @@ class Projects extends Component {
   render() {
     return (
       <div style={{ paddingTop: 20 }}>
+        <h3>Current:</h3>
+        <hr className="hr-class" />
+        <div>
+          {this.state.projects.map(project => {
+            if (project.id >= 200)
+              return <Project key={project.id} project={project} />;
+          })}
+        </div>
+
+      <div style={{ paddingTop: 20 }}>
         <h3>Graduate:</h3>
         <hr className="hr-class" />
         <div>
           {this.state.projects.map(project => {
-            if (project.id >= 100)
+            if (project.id >= 100 && project.id < 199)
               return <Project key={project.id} project={project} />;
           })}
         </div>
@@ -46,6 +56,7 @@ class Projects extends Component {
             })}
           </div>
         </div>
+      </div>
       </div>
     );
   }
