@@ -16,15 +16,9 @@ function nvm
 end
 ```
 
-### The right way
+### Download version and packages
 ```
-# resolve dependencies
-npm install package.json
-```
-
-### The wrong way 
-```
-nvm install 16.3.0
+nvm use 16.3.0 || nvm install 16.3.0
 nvm run node --version # make sure its v16.3.0
 npm install package.json
 ```
@@ -41,6 +35,7 @@ npm run build
 ```
 Then, push to git as src and update repo settings to add web address.
 ```
+# add_commit then
 git push origin source
 ```
 

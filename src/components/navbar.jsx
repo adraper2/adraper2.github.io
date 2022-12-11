@@ -4,6 +4,7 @@ import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import cv from "../content/aidan_draper_resume_2022.pdf";
+import { FaFilePdf } from 'react-icons/fa';
 
 var myColors = { White: "#FFFFFF", Purple: "#8A2BE2" };
 
@@ -56,13 +57,13 @@ class NavBar extends Component {
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
-              <NavLink exact to="/blog" className="nav-link">
+              <NavLink exact to="/blogs" className="nav-link">
                 Blog
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
               <a className="nav-link" href={cv}>
-                CV
+                <FaFilePdf />
               </a>
             </li>
           </ul>

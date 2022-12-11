@@ -62,10 +62,9 @@ class Home extends Component {
           Note that this website has unfinished components:
           <ul>
             <li>
-              Building out Material cards and pages for Blog & Hobbies. 
+              I am still building out my projects, blog, and hobbies content (two years later). But, I recently added markdown support, which should greatly increase my willingness to update content! 
             </li>
-            <li>Updating resume and project pages content</li>
-            <li>Adding a host content manager to make contributing easier</li>
+            <li>Adding py scripts and bash commands to make projects, hobbies, and blogs easier to create. I fully acknowledge how clunky my current system is.</li>
           </ul>
           <p>
             If you are interested in the code for this website, checkout my

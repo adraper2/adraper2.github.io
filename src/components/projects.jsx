@@ -20,10 +20,6 @@ class Projects extends Component {
       this.setState({projects: json_projects});
   }
 
-  _checkProjects(){
-      this.setState({projects: json_projects});
-  }
-
   render() {
     return (
       <div style={{ paddingTop: 20 }}>

@@ -1,9 +1,10 @@
 [
-    {  "id": 100,
+    {  "id": 1000001,
     "blogImage": "chance.jpg",
     "blogTitle": "Blog post filler",
     "blogDesc":
         "Enjoy a picture of Chance instead!",
-    "blogLink": "first_blog"
+    "pageLink": "first_blog",
+    "blogMarkdownFile": "test.md"
   }
 ]

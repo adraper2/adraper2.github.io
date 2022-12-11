@@ -12,11 +12,11 @@ class Blogs extends Component {
   }
 
   componentDidMount() {
-    this._checkHobbies();
+    this._checkBlogs();
     console.log(this.state.blogs);
   }
 
-  _checkHobbies(){
+  _checkBlogs(){
       this.setState({blogs: json_blogs});
   }
 
@@ -24,13 +24,7 @@ class Blogs extends Component {
     return (
       <div className="container">
         <div>
-          One day I'll actually use this page.
-          <br/>
-          <br/>
-        </div>
-        <div>
           {this.state.blogs.map(blog => {
-            if (blog.id >= 100)
               return <Blog key={blog.id} blog={blog} />;
           })}
         </div>

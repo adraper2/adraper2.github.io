@@ -3,14 +3,16 @@ import NavBar from "./components/navbar";
 import Home from "./components/home";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
+import ProjectPage from "./components/project-page";
 import Portfolio from "./components/portfolio";
 import Publications from "./components/publications";
-import ProjectPage from "./components/project-page";
 import Hobbies from "./components/hobbies";
 import Blogs from "./components/blogs";
+import BlogPage from "./components/blog-page";
 import "./App.css";
 import { Link, Route, Switch } from "react-router-dom";
 import json_projects from './content/projects.json'
+import json_blogs from './content/blogs.json'
 
 const NoMatch = ({ location }) => (
   <div>
@@ -27,7 +29,8 @@ const NoMatch = ({ location }) => (
 class App extends Component {
   state = {
     isTop: true, 
-    projects: json_projects
+    projects: json_projects,
+    blogs: json_blogs
   };
 
   componentDidMount() {
@@ -62,7 +65,17 @@ class App extends Component {
               />
             ))}
             <Route path="/hobbies" component={Hobbies} />
-            <Route path="/blog" component={Blogs} />
+            // <Route path="/blog" component={Blogs} />
+            <Route
+              path="/blogs"
+              render={props => <Blogs {...props} state={this.state} />}
+            />
+            {this.state.blogs.map(blog => (
+              <Route
+                path={"/" + blog.pageLink}
+                render={props => <BlogPage {...props} blog={blog} />}
+              />
+            ))}
             <Route component={NoMatch} />
           </Switch>
           <Footer />
