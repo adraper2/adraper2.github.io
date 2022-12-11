@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "d0785e0b5ff98afeea0c",
-    "url": "/static/css/main.95533f41.chunk.css"
+    "revision": "e7260034283e0ead7598",
+    "url": "/static/css/main.d05ab9b6.chunk.css"
   },
   {
-    "revision": "d0785e0b5ff98afeea0c",
-    "url": "/static/js/main.cae009e1.chunk.js"
+    "revision": "e7260034283e0ead7598",
+    "url": "/static/js/main.927a696c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "ea95a395e96e8b6aab7f",
-    "url": "/static/css/2.43a02acd.chunk.css"
+    "revision": "22dffbc4b9bfe5fa56fa",
+    "url": "/static/css/2.accd7086.chunk.css"
   },
   {
-    "revision": "ea95a395e96e8b6aab7f",
+    "revision": "22dffbc4b9bfe5fa56fa",
     "url": "/static/js/2.6d1edfef.chunk.js"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/grad_low_res.29acc619.png"
   },
   {
-    "revision": "b1e59493567f2a4c58f3fd6709dd6bef",
-    "url": "/static/media/aidan_draper_de_resume_2021.b1e59493.pdf"
+    "revision": "7e521b831b96645b3487a0a031dfab3f",
+    "url": "/static/media/aidan_draper_resume_2022.7e521b83.pdf"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/static/media/image_denoising_survey_manuscript_draper_taylor.44f11537.pdf"
   },
   {
-    "revision": "0288eee0f2b01d08c1b35b8eb49f502c",
+    "revision": "16ba41658fedb4c73993130518bd9419",
     "url": "/index.html"
   }
 ];
