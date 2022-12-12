@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import Home from "./components/home";
+import About from "./components/about";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
 import ProjectPage from "./components/project-page";
@@ -53,6 +54,7 @@ class App extends Component {
         <main className="container">
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
             <Route
               path="/projects"
               render={props => <Projects {...props} state={this.state} />}
@@ -78,7 +80,7 @@ class App extends Component {
             ))}
             <Route component={NoMatch} />
           </Switch>
-          <Footer />
+          {window.location.pathname !== "/" && <Footer />}
         </main>
       </React.Fragment>
     );

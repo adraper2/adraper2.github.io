@@ -8,11 +8,10 @@ import twit_image from "../content/Twitter.png";
 //import classes from "*.module.css";
 
 class Footer extends Component {
-  state = {};
-  render() {
+   render() {
     return (
       <div className="footer">
-        <hr />
+        <hr /> 
         <div align="center" className="footer-element">
           <a
             className="account_links"

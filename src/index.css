@@ -76,19 +76,38 @@ html {
   text-align: center;
 }
 
+.vertical-center {
+  vertical-align: middle; 
+}
+
 .align {
   vertical-align: top;
   display: inline-block;
   position: relative;
 }
 
+div#home_prof_icons {
+  max-width: 100%;
+}
+
 #home_prof {
   max-width: 15%;
+  padding: 30px;
 }
 
 #home_github {
   max-width: 85%;
   padding-left: 5%;
+}
+
+#home-name-text {
+  padding-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', sans-serif;
+  /*font-family: 'Courier New', monospace;*/
+  /*font-family: Tahoma; */
+  text-align: center;
 }
 
 /* Portfolio CSS ----------- */
@@ -140,6 +159,10 @@ html {
 .top-container {
   margin-top: 40px;
   height: 90%;
+}
+
+main#home-top-container.main-container {
+  padding-top: 25%;
 }
 
 .footer {
@@ -256,6 +279,10 @@ html {
     top: 0px;
   }
 
+  #home_github{
+    padding: 0px;
+  }
+
   .aligned-container {
     position: relative;
     text-align: center;
@@ -267,12 +294,12 @@ html {
   }
 
   #prof-image {
-    padding-left: 25px;
-    padding-bottom: 10px;
+    padding: 0px;
   }
 
   #home_prof {
     max-width: 100%;
+    padding: 0px;
   }
 
   #home_github {

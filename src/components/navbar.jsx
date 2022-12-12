@@ -42,6 +42,12 @@ class NavBar extends Component {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0 ">
             <li className="nav-item d-flex justify-content-end">
+              <NavLink exact to="/about" className="nav-link">
+                About
+              </NavLink>
+            </li>
+
+            <li className="nav-item d-flex justify-content-end">
               <NavLink exact to="/projects" className="nav-link">
                 Projects
               </NavLink>
