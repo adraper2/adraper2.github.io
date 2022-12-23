@@ -1,10 +1,18 @@
 [
     {  "id": 1000001,
+    "blogImage": "aidan_prof_2022.png",
+    "blogTitle": "Markdown Support",
+    "blogDesc":
+        "I recently added markdown support (see Read More). This will hopefully encourage me to start writing here more.",
+    "pageLink": "first_blog",
+    "blogMarkdownFile": "test.md"
+  },
+    {  "id": 1000002,
     "blogImage": "chance.jpg",
     "blogTitle": "Blog post filler",
     "blogDesc":
         "Enjoy a picture of Chance instead!",
-    "pageLink": "first_blog",
+    "pageLink": "filler",
     "blogMarkdownFile": "test.md"
   }
 ]

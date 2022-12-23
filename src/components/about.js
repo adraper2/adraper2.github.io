@@ -30,16 +30,7 @@ class About extends Component {
           
           <hr />
           <p>
-            <b>What about this site?</b>
-          </p>
-          <p>
-          <ul>
-            <li>
-              I am still building out my projects, blog, and hobbies content (two years later). But, I recently added markdown support, which should greatly increase my willingness to update content! 
-            </li>
-            <li>Adding py scripts and bash commands to make projects, hobbies, and blogs easier to create. I fully acknowledge how clunky my current system is.</li>
-          </ul>
-          </p>
+          <b>What about this site?</b> I recently added markdown support in the hopes that it will increase my willingness to update this site. The next thing on my agenda is to build out CLI commands (maybe in rust) to make projects, hobbies, and blogs in a friendlier fashion. I fully acknowledge how clunky my current system is. Right now, I have some opinionated use of IDs to organize content (see projects). In addition, you must create both a chunk of json and a markdown file in the current location in order to create new content. It feels less than ideal when the point should be to focus on the actual content creation.                    </p>
           <p>
             If you are interested in the code for this website, checkout my
             GitHub repo{" "}

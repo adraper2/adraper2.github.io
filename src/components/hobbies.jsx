@@ -23,11 +23,6 @@ class Hobbies extends Component {
     return (
       <div className="container">
         <div>
-          I have been busy. There are more content updates coming soon.
-          <br />
-          <br />
-        </div>
-        <div>
           {this.state.hobbies.map(hobby => {
             if (hobby.id >= 100)
               return <Hobby key={hobby.id} hobby={hobby} />;

@@ -53,8 +53,8 @@ class NavBar extends Component {
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
-              <NavLink exact to="/publications" className="nav-link">
-                Publications
+              <NavLink exact to="/blogs" className="nav-link">
+                Blog
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
@@ -63,8 +63,8 @@ class NavBar extends Component {
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">
-              <NavLink exact to="/blogs" className="nav-link">
-                Blog
+              <NavLink exact to="/publications" className="nav-link">
+                Pubs
               </NavLink>
             </li>
             <li className="nav-item d-flex justify-content-end">

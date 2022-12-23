@@ -44,6 +44,7 @@ class Blog extends Component {
         </Button>
       </CardActions>
     </Card>
+        <br />
       </div>
     );
   }

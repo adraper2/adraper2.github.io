@@ -1,12 +1,21 @@
 import React, { Component } from "react";
+import ReactMarkdown from 'react-markdown';
 
 class ProjectPage extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {md: null}
   }
 
-  componentDidMount() {
-    //console.log(this.props.state.project);
+  // from https://stackoverflow.com/questions/57654378/dynamically-loading-markdown-file-in-react
+  async componentDidMount() {
+    const projectFileName = this.props.project.pageLink; // TODO: move this prop to its own projectMarkdown
+    const file = await import(`../content/projects/${projectFileName}.md`);
+    const response = await fetch(file.default);
+    const text = await response.text();
+
+    this.setState({ md: text })
   }
 
   render() {
@@ -14,10 +23,13 @@ class ProjectPage extends Component {
       projectImage,
       projectTitle,
       projectDesc,
-      contentOne,
-      contentTwo,
-      contentThree,
-      contentFour
+      pageLink
+      //projectMarkdownFile
+      // old way of storing content
+      //contentOne,
+      //contentTwo,
+      //contentThree,
+      //contentFour
     } = this.props.project;
 
     return (
@@ -30,17 +42,12 @@ class ProjectPage extends Component {
         <h3 className="project-page-title">{projectTitle}</h3>
         <br />
         <p>
-          <b>Brief overview:</b> <i>{projectDesc}</i>
+          <b>Summary:</b> <i>{projectDesc}</i>
         </p>
-        <h4>In-depth Overview:</h4>
-        <hr className="hr-class" />
-        {contentOne}
+        <hr />
         <br />
-        {contentTwo}
+        <ReactMarkdown children={this.state.md} />
         <br />
-        {contentThree}
-        <br />
-        {contentFour}
       </div>
     );
   }

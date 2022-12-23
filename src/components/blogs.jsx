@@ -23,7 +23,7 @@ class Blogs extends Component {
   render() {
     return (
       <div className="container">
-        <div>
+        <div style={{ paddingBottom: 10 }}>
           {this.state.blogs.map(blog => {
               return <Blog key={blog.id} blog={blog} />;
           })}

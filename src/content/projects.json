@@ -1,23 +1,19 @@
 [
   {  "id": 200,
-    "projectImage": "aidan_prof_2022.png",
-    "projectTitle": "Current Work",
+    "projectImage": "rust_lang.png",
+    "projectTitle": "Learning Rust",
     "projectDesc":
-      "This content will be updated later with a greater description of my current work and projects.",
-    "projectLink": "current",
-    "pageLink": "current",
-    "contentOne": "<div><p>Project contents coming soon!</p></div>",
-    "contentTwo": ""
+      "I decided to board the rust hype train. Follow along in the github repo or in this Markdown, which I plan to use to document my experience coding my first rust project. I was looking for a third lanugage and I really wanted something low-level that filled a different gap to python or Javascript. What attracted me to rust was that it introduces high-level abstraction to the gross areas of low-level programming. I first really noticed the compilation speed after hearing about the python linter, Ruff by Charlie Marsh, which is significantly outperforming the classic choices.",
+    "projectLink": "rust_intro",
+    "pageLink": "learning_rust"
   },   
   {  "id": 102,
-    "projectImage": "grad_low_res.png",
-    "projectTitle": "Graduate Research",
+    "projectImage": "pipeline_teaser.png",
+    "projectTitle": "Graduate Research: 3D to 2D Fingerprint Verification",
     "projectDesc":
-      "This content will be updated later with a greater description of my primary research at Notre Dame.",
+      "In my graduate studies, I architected a method of reconstructing ISO-compliant fingerprint images from videos taken by regular cameras installed in mobile phones. The primary goal of this was to provide a way of delivering fingerprint images that are compliant with imprints stored already in AFIS databases, such as ones that are captured at border security. The complication of this study was that our input 3D images were captured with mobile phones with no constraints to the motion or a background.",
     "projectLink": "ND_Research",
-    "pageLink": "nd_research",
-    "contentOne": "<div><p>Project contents coming soon!</p></div>",
-    "contentTwo": ""
+    "pageLink": "nd_research"
   },    
   {  "id": 100,
       "projectImage": "zachs-esn_keystrokes.png",

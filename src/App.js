@@ -8,12 +8,14 @@ import ProjectPage from "./components/project-page";
 import Portfolio from "./components/portfolio";
 import Publications from "./components/publications";
 import Hobbies from "./components/hobbies";
+import HobbyPage from "./components/hobby-page";
 import Blogs from "./components/blogs";
 import BlogPage from "./components/blog-page";
 import "./App.css";
 import { Link, Route, Switch } from "react-router-dom";
 import json_projects from './content/projects.json'
 import json_blogs from './content/blogs.json'
+import json_hobbies from './content/hobbies.json'
 
 const NoMatch = ({ location }) => (
   <div>
@@ -31,7 +33,8 @@ class App extends Component {
   state = {
     isTop: true, 
     projects: json_projects,
-    blogs: json_blogs
+    blogs: json_blogs,
+    hobbies: json_hobbies
   };
 
   componentDidMount() {
@@ -59,14 +62,23 @@ class App extends Component {
               path="/projects"
               render={props => <Projects {...props} state={this.state} />}
             />
-            <Route path="/publications" component={Publications} />
             {this.state.projects.map(project => (
               <Route
                 path={"/" + project.pageLink}
                 render={props => <ProjectPage {...props} project={project} />}
               />
             ))}
-            <Route path="/hobbies" component={Hobbies} />
+            <Route path="/publications" component={Publications} />
+            <Route path="/hobbies" 
+              render={props => <Hobbies {...props} state={this.state} />}
+
+            />
+            {this.state.hobbies.map(hobby => (
+              <Route
+                path={"/" + hobby.hobbyLink}
+                render={props => <HobbyPage {...props} hobby={hobby} />}
+              />
+            ))}
             // <Route path="/blog" component={Blogs} />
             <Route
               path="/blogs"

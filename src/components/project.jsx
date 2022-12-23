@@ -42,8 +42,15 @@ class Project extends Component {
 
     const { projectInfo, projectCommits } = this.state;
     //console.log(projectInfo);
-    const githubData = projectInfo.has_projects ? (
+    const githubData = projectInfo.has_projects ? ( 
       <div className="github_box">
+        <a
+        className="project_tag"
+        href={"https://github.com/adraper2/" + projectLink}
+        style={{ paddingRight: 5 }}
+       >
+        [GitHub]
+      </a>
         Written in {projectInfo.language}
         {", "}
         <img className="project_tag" src={Fork} alt="tag" />:{" "}
@@ -74,13 +81,6 @@ class Project extends Component {
               style={{ paddingRight: 5 }}
             >
               [project]
-            </a>
-            <a
-              className="project_tag"
-              href={"https://github.com/adraper2/" + projectLink}
-              style={{ paddingRight: 5 }}
-            >
-              [GitHub]
             </a>
             {githubData}
           </div>

@@ -23,7 +23,7 @@ class Projects extends Component {
   render() {
     return (
       <div style={{ paddingTop: 20 }}>
-        <h3>Current:</h3>
+        <h3>Recent:</h3>
         <hr className="hr-class" />
         <div>
           {this.state.projects.map(project => {
