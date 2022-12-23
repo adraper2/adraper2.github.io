@@ -1,0 +1,1 @@
+{"version":3,"sources":["content/projects/spotitry.md"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/17.1d7414b6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spotitry.d41d8cd9.md\";"],"sourceRoot":""}

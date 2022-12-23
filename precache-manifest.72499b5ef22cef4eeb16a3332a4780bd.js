@@ -1,27 +1,83 @@
 self.__precacheManifest = [
   {
-    "revision": "b7a8e4b2feba90b28c8e",
+    "revision": "9fa07e858efadef2efac",
     "url": "/static/css/main.f4a8d9f9.chunk.css"
   },
   {
-    "revision": "b7a8e4b2feba90b28c8e",
-    "url": "/static/js/main.c79231ce.chunk.js"
+    "revision": "9fa07e858efadef2efac",
+    "url": "/static/js/main.794e21cf.chunk.js"
   },
   {
-    "revision": "deddb0a402edd1e2cbfe",
-    "url": "/static/js/runtime~main.9fcf31b2.js"
+    "revision": "97cd0ca4801578752929",
+    "url": "/static/js/runtime~main.9c65e945.js"
   },
   {
-    "revision": "be43ec38ff74010ec490",
+    "revision": "a1824c5ae716d334617d",
     "url": "/static/css/2.accd7086.chunk.css"
   },
   {
-    "revision": "be43ec38ff74010ec490",
-    "url": "/static/js/2.27fe9583.chunk.js"
+    "revision": "a1824c5ae716d334617d",
+    "url": "/static/js/2.22333e92.chunk.js"
   },
   {
-    "revision": "6d600f4cef99944a9279",
-    "url": "/static/js/3.9d2f129a.chunk.js"
+    "revision": "79b000d6543708991c6c",
+    "url": "/static/js/3.78184a4b.chunk.js"
+  },
+  {
+    "revision": "b56ebaabe1540ec92142",
+    "url": "/static/js/4.98dc375c.chunk.js"
+  },
+  {
+    "revision": "25704e7c07494d6530f3",
+    "url": "/static/js/5.f554fccf.chunk.js"
+  },
+  {
+    "revision": "ab4e32130bc806ec565d",
+    "url": "/static/js/6.6523939e.chunk.js"
+  },
+  {
+    "revision": "c1837de8b337e6c5b87c",
+    "url": "/static/js/7.f97cc819.chunk.js"
+  },
+  {
+    "revision": "e01d81d4709d176d5a28",
+    "url": "/static/js/8.7cd2c152.chunk.js"
+  },
+  {
+    "revision": "161e4ea4fa1ff85fb2cf",
+    "url": "/static/js/9.0c513509.chunk.js"
+  },
+  {
+    "revision": "f39942254188150aabd5",
+    "url": "/static/js/10.c55551da.chunk.js"
+  },
+  {
+    "revision": "e2fa46e41c5e27e089bc",
+    "url": "/static/js/11.01fbf7fb.chunk.js"
+  },
+  {
+    "revision": "ea47cd973bacc71ab841",
+    "url": "/static/js/12.5cff0050.chunk.js"
+  },
+  {
+    "revision": "f861a903bb39dbf4852f",
+    "url": "/static/js/13.b3bec0c8.chunk.js"
+  },
+  {
+    "revision": "af282ac975aa33683233",
+    "url": "/static/js/14.c266e4b8.chunk.js"
+  },
+  {
+    "revision": "e89294877edaaff9890a",
+    "url": "/static/js/15.52725794.chunk.js"
+  },
+  {
+    "revision": "496953277f2f5880f3ce",
+    "url": "/static/js/16.ab7b0f70.chunk.js"
+  },
+  {
+    "revision": "256e092e7085b2f3483f",
+    "url": "/static/js/17.1d7414b6.chunk.js"
   },
   {
     "revision": "a7b99f49cd3dfb4e773948b8f69781eb",
@@ -108,6 +164,10 @@ self.__precacheManifest = [
     "url": "/static/media/peace_cloud.cf2185ec.png"
   },
   {
+    "revision": "31408ebc2bcb3c47ae4908d41d1286d9",
+    "url": "/static/media/pipeline_teaser.31408ebc.png"
+  },
+  {
     "revision": "48f7df7db6349433aed9cf78a0dbe8bf",
     "url": "/static/media/prediction_visual_scam2.48f7df7d.png"
   },
@@ -136,11 +196,67 @@ self.__precacheManifest = [
     "url": "/static/media/image_denoising_survey_manuscript_draper_taylor.44f11537.pdf"
   },
   {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/CLT_shiny.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/DISC_bayesian.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/DISC_chesapeake.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/hand_classifier.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/learning_rust.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/mood_analysis.d41d8cd9.md"
+  },
+  {
+    "revision": "ef74a6878bcbe484d121af63bbddf6ef",
+    "url": "/static/media/nd_research.ef74a687.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/neural_keystrokes.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/noise_reduction.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/portfolio_site.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/spotitry.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/cycling_hobby.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/photo_hobby.d41d8cd9.md"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/static/media/soccer_hobby.d41d8cd9.md"
+  },
+  {
     "revision": "3b4b3356493dc6bc1f30e0d7cc2e978b",
     "url": "/static/media/test.3b4b3356.md"
   },
   {
-    "revision": "a50fcb5fbf05bcc0cdc49a1dbc991e2e",
+    "revision": "0047778d4d082f15b7c51b82936c1caf",
     "url": "/index.html"
   }
 ];
