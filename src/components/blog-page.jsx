@@ -31,15 +31,15 @@ class BlogPage extends Component {
     return (
       <div>
         <br />
-        <h2 className="blog-page-title">{blogTitle}</h2>
-        <hr className="hr-class" />
-        <br />
         <img
           src={require(`../images/${blogImage}`)}
           className=" rounded border project-page-image"
         />
         <br />
-        <ReactMarkdown children={this.state.md} />
+        <br />
+        <h2 className="blog-page-title">{blogTitle}</h2>
+        <hr className="hr-class" />
+        <ReactMarkdown children={this.state.md} escapeHtml={false} />
         <br />
       </div>
     );

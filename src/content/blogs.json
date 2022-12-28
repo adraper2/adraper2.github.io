@@ -1,18 +1,18 @@
 [
-    {  "id": 1000001,
-    "blogImage": "aidan_prof_2022.png",
-    "blogTitle": "Markdown Support",
-    "blogDesc":
-        "I recently added markdown support (see Read More). This will hopefully encourage me to start writing here more.",
-    "pageLink": "first_blog",
-    "blogMarkdownFile": "test.md"
-  },
-    {  "id": 1000002,
-    "blogImage": "chance.jpg",
-    "blogTitle": "Blog post filler",
-    "blogDesc":
-        "Enjoy a picture of Chance instead!",
-    "pageLink": "filler",
-    "blogMarkdownFile": "test.md"
-  }
+    {  
+        "id": 1000000,
+        "blogImage": "grad_low_res.png",
+        "blogTitle": "An afterword exiting grad school",
+        "blogDesc": "I felt really compelled to eventually talk about what transpired during these two years in my PhD program. Like all things, there were many good and many bad moments. I take this time to talk about it for my own sense of relief and to maybe share some important inspiration for others who feel a bit trapped in their current situations.",
+        "pageLink": "exiting-grad-school",
+        "blogMarkdownFile": "exiting-grad-school.md"
+    },
+    {  
+        "id": 1000001,
+        "blogImage": "chance.jpg",
+        "blogTitle": "Markdown Support",
+        "blogDesc": "Here's my dog, Chance! I recently added markdown support (see Read More). This will hopefully encourage me to start writing here more. This is simply a test of the current markdown formatting. I plan to use this for blogging in the future.",
+        "pageLink": "first_blog",
+        "blogMarkdownFile": "test.md"
+    }
 ]
