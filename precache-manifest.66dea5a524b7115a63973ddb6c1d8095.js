@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "22d80e5ebb832ee5a466",
+    "revision": "b6c10e0c995496e47182",
     "url": "/static/css/main.f4a8d9f9.chunk.css"
   },
   {
-    "revision": "22d80e5ebb832ee5a466",
-    "url": "/static/js/main.1283cbab.chunk.js"
+    "revision": "b6c10e0c995496e47182",
+    "url": "/static/js/main.277b79a8.chunk.js"
   },
   {
     "revision": "fde32277b20bebf4942e",
@@ -280,7 +280,7 @@ self.__precacheManifest = [
     "url": "/static/media/two_mindsets.0e5cab55.md"
   },
   {
-    "revision": "ccd848cf817c1e6b269a636d827b9497",
+    "revision": "ca15ce985248651ecdde108e8b279b07",
     "url": "/index.html"
   }
 ];
