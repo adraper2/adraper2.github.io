@@ -8,7 +8,12 @@ import twit_image from "../content/Twitter.png";
 //import classes from "*.module.css";
 
 class Footer extends Component {
-   render() {
+   getYear() {
+    return new Date().getFullYear();
+   }
+
+
+    render() {
     return (
       <div className="footer">
         <hr /> 
@@ -39,7 +44,7 @@ class Footer extends Component {
           </a>
         </div>
         <div align="center" className="footer-element">
-          Copyright &copy; 2022 | Aidan James Draper
+          Copyright &copy; {this.getYear()} | Aidan James Draper
         </div>
         <div align="center" className="footer-element">
           <img
