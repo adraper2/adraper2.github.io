@@ -55,7 +55,7 @@ class Footer extends Component {
           />
           Built using React.{" "}
         </div>
-        <div align="center"><p><i>Site last updated: <code>December, 2022</code>.</i></p></div>
+        <div align="center"><p><i>Site last updated: <code>June, 2023</code>.</i></p></div>
       </div>
     );
   }

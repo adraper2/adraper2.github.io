@@ -10,8 +10,7 @@ class About extends Component {
             <code>Hello, world!</code>
           </p>
           <p>
-            <b>Who am I?</b> I am a data engineer for 
-            <a href="https://wework.com"> WeWork</a> and maintain our People data cloud warehouse. Formerly, I worked at an edtech Series A startup as a data engineer and content designer. For education, I attended Elon University to earn degrees in Computer Science and Statistics. I spent two 
+            <b>Who am I?</b> I am a Data Engineer at Restaurant365 working on building out our first cloud warehouse. Formerly, I have worked at WeWork, maintaining their People data cloud warehouse, and an edtech startup building data pipelines and an OLAP application. For education, I attended Elon University to earn degrees in Computer Science and Statistics. I spent two 
             years in a PhD pogram researching the application of neural networks for
             multiview scene reconstructions in a Computer Vision lab 
             <a href="https://cvrl.nd.edu/"> (CVRL)</a> at Notre Dame.
