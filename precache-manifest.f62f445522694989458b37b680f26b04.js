@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "b6c10e0c995496e47182",
-    "url": "/static/css/main.f4a8d9f9.chunk.css"
+    "revision": "22b63179f7b83a2c8dd0",
+    "url": "/static/css/main.50090f8f.chunk.css"
   },
   {
-    "revision": "b6c10e0c995496e47182",
-    "url": "/static/js/main.277b79a8.chunk.js"
+    "revision": "22b63179f7b83a2c8dd0",
+    "url": "/static/js/main.64c2c76a.chunk.js"
   },
   {
     "revision": "fde32277b20bebf4942e",
     "url": "/static/js/runtime~main.109e7c55.js"
   },
   {
-    "revision": "a8f0eafb490766e56fe8",
-    "url": "/static/css/2.accd7086.chunk.css"
+    "revision": "a9187b1e0367984306b1",
+    "url": "/static/css/2.0cf43080.chunk.css"
   },
   {
-    "revision": "a8f0eafb490766e56fe8",
-    "url": "/static/js/2.eca8e0a5.chunk.js"
+    "revision": "a9187b1e0367984306b1",
+    "url": "/static/js/2.4ab13ada.chunk.js"
   },
   {
     "revision": "71bda8e148e3c595eb5c",
@@ -280,7 +280,7 @@ self.__precacheManifest = [
     "url": "/static/media/two_mindsets.0e5cab55.md"
   },
   {
-    "revision": "ca15ce985248651ecdde108e8b279b07",
+    "revision": "5b1f8f1c1ed68777de73bfa46b7cf106",
     "url": "/index.html"
   }
 ];
