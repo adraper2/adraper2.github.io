@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "22b63179f7b83a2c8dd0",
+    "revision": "2e09824237fd0ae778fb",
     "url": "/static/css/main.50090f8f.chunk.css"
   },
   {
-    "revision": "22b63179f7b83a2c8dd0",
-    "url": "/static/js/main.64c2c76a.chunk.js"
+    "revision": "2e09824237fd0ae778fb",
+    "url": "/static/js/main.abc942f0.chunk.js"
   },
   {
     "revision": "fde32277b20bebf4942e",
@@ -96,8 +96,8 @@ self.__precacheManifest = [
     "url": "/static/media/aidan_prof_2022.a7b99f49.png"
   },
   {
-    "revision": "0c2c888e27caf64cca2e4477c0616705",
-    "url": "/static/media/aidan_draper_resume_2022.0c2c888e.pdf"
+    "revision": "ad8d0664f8269956461e29d95c9c7d6b",
+    "url": "/static/media/aidan_draper_resume_2023.ad8d0664.pdf"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -280,7 +280,7 @@ self.__precacheManifest = [
     "url": "/static/media/two_mindsets.0e5cab55.md"
   },
   {
-    "revision": "5b1f8f1c1ed68777de73bfa46b7cf106",
+    "revision": "567542559b5798056084b28f28db9306",
     "url": "/index.html"
   }
 ];
