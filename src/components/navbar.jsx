@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import cv from "../content/aidan_draper_resume_2022.pdf";
+import cv from "../content/aidan_draper_resume_2023.pdf";
 import { FaFilePdf } from 'react-icons/fa';
 
 var myColors = { White: "#FFFFFF", Purple: "#8A2BE2" };

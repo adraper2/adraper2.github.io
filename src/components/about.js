@@ -10,13 +10,22 @@ class About extends Component {
             <code>Hello, world!</code>
           </p>
           <p>
-            <b>Who am I?</b> I am a Data Engineer at Restaurant365 working on building out our first cloud warehouse. Formerly, I have worked at WeWork, maintaining their People data cloud warehouse, and an edtech startup building data pipelines and an OLAP application. For education, I attended Elon University to earn degrees in Computer Science and Statistics. I spent two 
+             <b>Who am I?</b> I am a Software Engineer currently Open to Work! Formerly, 
+        I was a Data Engineer at Restaurant365 working on building out their first cloud 
+        warehouse. I have worked at WeWork, maintaining their People data cloud warehouse, 
+        and an edtech startup building data pipelines and a backend OLAP application in Django. For education, 
+        I attended Elon University to earn degrees in Computer Science and Statistics. I spent two 
             years in a PhD pogram researching the application of neural networks for
             multiview scene reconstructions in a Computer Vision lab 
             <a href="https://cvrl.nd.edu/"> (CVRL)</a> at Notre Dame.
           </p>
           <p>
-            <b>What have I been up to?</b> I am passionate about problem solving in data settings and building open-source software for these solutions. More recently, I have been enjoying exploring modern applications of database design and data app architectures. I spend most of my time building highly-scalable pipelines. I have a vested interest in FLOSS projects and data transparency. In my last role, I was a developer for an open-source <a href="https://gitlab.com/frame-00/00-api">OLAP and API tool</a> (in Django). 
+            <b>What have I been up to?</b> I am passionate about problem solving in data settings 
+        and building open-source software for these solutions. More recently, I have been enjoying 
+        exploring modern applications of database design and data app architectures. I spend most 
+        of my time building highly-scalable pipelines. I have a vested interest in FLOSS projects 
+        and data transparency. In my last role, I was a developer for an open-source 
+        <a href="https://gitlab.com/frame-00/00-api">OLAP and API tool</a> (in Django). 
 <br /><br />Prior to data engineering, I worked with depth estimation and segmentation deep learning architectures in Tensorflow and PyTorch. I have experience in training self-supervised depth estimation models. In addition, I have transfer-learned multiple models, including Inceptionv3, Mask R-CNN, SfM-Net, Monodepth, and Monodepth 2. I also enjoy exploring random datasets with a statistics lens and wish to get into data consulting in the future. 
           </p>
           <p>

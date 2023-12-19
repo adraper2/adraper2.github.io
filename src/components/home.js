@@ -24,7 +24,7 @@ class Home extends Component {
               </p>
 
               <p style={{ textAlign: "center" }}>
-                <code>Data Engineer | Software Developer Hobbyist</code>
+                <code>Software Engineer & Data Hobbyist</code>
               </p>
               <img
                 className="github_chart"
